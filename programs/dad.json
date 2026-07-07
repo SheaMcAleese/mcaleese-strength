@@ -1,0 +1,989 @@
+{
+  "profile": {
+    "id": "dad",
+    "displayName": "Dad",
+    "theme": "light-high-contrast",
+    "largeText": true,
+    "constraints": [
+      "No deep knee bending — stay well above parallel",
+      "No jumping or quick direction changes",
+      "No heavy single-leg loading",
+      "Seated or supported options are always fine",
+      "Nothing should ever hurt — mild effort is enough"
+    ],
+    "goals": [
+      "Stronger legs for stairs and getting out of chairs",
+      "Better balance — steady on your feet",
+      "Keep shoulders, back and grip strong"
+    ]
+  },
+
+  "settings": {
+    "units": "kg",
+    "defaultRestSeconds": 75,
+    "showHotelVariant": false
+  },
+
+  "weeks": [
+    {
+      "label": "Week 1 — Getting started",
+      "note": "This week is about learning the movements, not working hard. Every set should feel easy — like you could do 3 or 4 more. If anything hurts, skip it and tell Shea.",
+      "days": [
+        {
+          "name": "Session A — Legs & Balance",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy pedalling on the bike (light resistance, seat high)",
+            "10 gentle marches on the spot, holding the kitchen bench",
+            "5 slow ankle circles each way, each foot"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 2,
+              "reps": "6",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Sit tall, lean forward a little, push through your heels to stand",
+              "alternative": "Use the armrests to help yourself up",
+              "stopIf": "Sharp pain in the knee, or the knee feels like it might give way — stop and skip this one"
+            },
+            {
+              "name": "Small Squat Holding the Bench",
+              "sets": 2,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Bend the knees just a little — thighs stay well above level. Hold the bench the whole time",
+              "alternative": "Make the bend even smaller — a few centimetres is fine",
+              "stopIf": "Any knee pain at all — make the bend smaller or stop"
+            },
+            {
+              "name": "Heel Raises Holding the Bench",
+              "sets": 2,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Rise up onto your toes slowly, lower down even slower",
+              "alternative": "Rise up with both feet, hold the bench firmly",
+              "stopIf": "Cramping or sharp calf pain — stop and stretch gently"
+            },
+            {
+              "name": "Side Leg Raises at the Bench",
+              "sets": 2,
+              "reps": "8 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Stand tall, lift the leg out to the side — small lift, no leaning",
+              "alternative": "Smaller lift, or just shift your weight side to side",
+              "stopIf": "Hip or knee pain — stop"
+            },
+            {
+              "name": "Slow Marching with a Pause",
+              "sets": 2,
+              "reps": "10 steps",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Lift one knee, pause for a second, place it down gently. Fingertips on the bench",
+              "alternative": "Hold the bench with your whole hand",
+              "stopIf": "Feeling unsteady or dizzy — sit down and rest"
+            },
+            {
+              "name": "Balance Practice — Feet in a Line",
+              "sets": 3,
+              "reps": "20 seconds",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "One foot in front of the other like a tightrope, next to the bench. Eyes up",
+              "alternative": "Feet slightly apart instead of in a line",
+              "stopIf": "Any wobble you can't control — grab the bench, that's what it's there for"
+            }
+          ],
+          "cooldown": [
+            "3 minutes easy walking around the house",
+            "Gentle calf stretch at the wall, 30 seconds each leg — no bouncing"
+          ]
+        },
+        {
+          "name": "Session B — Push, Pull & Grip",
+          "estimatedMinutes": 30,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 slow arm circles each way",
+            "10 shoulder rolls"
+          ],
+          "exercises": [
+            {
+              "name": "One-Arm Row, Hand on the Bench",
+              "sets": 2,
+              "reps": "10 each side",
+              "load": "Light dumbbell (start 4–6 kg)",
+              "restSeconds": 75,
+              "cue": "Lean on the bench with one hand, pull the weight to your hip",
+              "alternative": "Sit on a chair and do it one arm at a time, elbow to your side",
+              "stopIf": "Lower back pain — sit down for the seated version instead"
+            },
+            {
+              "name": "Push-Up Against the Bench",
+              "sets": 2,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Hands on the bench, body in a straight line, lower slowly",
+              "alternative": "Stand closer to the bench, or push against the wall instead",
+              "stopIf": "Wrist or shoulder pain — switch to the wall version"
+            },
+            {
+              "name": "Seated Shoulder Press",
+              "sets": 2,
+              "reps": "8",
+              "load": "Light dumbbells (start 3–4 kg)",
+              "restSeconds": 75,
+              "cue": "Sit tall against the chair back, press up smoothly, don't lock the elbows hard",
+              "alternative": "One arm at a time, or press only to eye level",
+              "stopIf": "Shoulder pinching — lower the weight or press only part way up"
+            },
+            {
+              "name": "Standing Curl",
+              "sets": 2,
+              "reps": "10",
+              "load": "Light dumbbells",
+              "restSeconds": 60,
+              "cue": "Elbows by your sides, curl up slowly, lower even slower",
+              "alternative": "Sit down and do one arm at a time",
+              "stopIf": "Elbow pain — go lighter"
+            },
+            {
+              "name": "Farmer Hold — Stand Still and Grip",
+              "sets": 2,
+              "reps": "20 seconds",
+              "load": "One dumbbell each hand (start 6–8 kg)",
+              "restSeconds": 60,
+              "cue": "Stand tall, shoulders back, squeeze the handles hard",
+              "alternative": "Hold one dumbbell with both hands in front of you",
+              "stopIf": "Feeling unsteady — put them down, hold the bench, rest"
+            },
+            {
+              "name": "Easy Bike Spin",
+              "sets": 1,
+              "reps": "8 minutes",
+              "load": "Light — you should be able to chat the whole time",
+              "restSeconds": 0,
+              "cue": "Comfortable pace, seat high enough that the knee never bends sharply",
+              "alternative": "A steady walk instead",
+              "stopIf": "Knee discomfort — raise the seat or ease the resistance"
+            }
+          ],
+          "cooldown": [
+            "Gentle chest stretch in a doorway, 30 seconds",
+            "Shake the arms out, roll the shoulders"
+          ]
+        },
+        {
+          "name": "Session C — Move & Carry",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy walking or easy bike",
+            "10 gentle marches holding the bench"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 2,
+              "reps": "6",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Same as Session A — sit tall, push through your heels",
+              "alternative": "Use the armrests to help",
+              "stopIf": "Sharp knee pain — stop and skip"
+            },
+            {
+              "name": "Hip Bridge Lying Down",
+              "sets": 2,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Lie on your back, knees bent gently, lift your hips and squeeze your bottom at the top",
+              "alternative": "Smaller lift — even a few centimetres counts",
+              "stopIf": "Back or knee pain — stop"
+            },
+            {
+              "name": "Heel Taps on a Low Step",
+              "sets": 2,
+              "reps": "5 each leg",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Stand on the floor holding the rail, tap one heel onto a low step and back. No stepping up yet",
+              "alternative": "Tap the heel on the flat floor in front of you instead",
+              "stopIf": "Any knee pain — do the flat-floor version"
+            },
+            {
+              "name": "Suitcase Carry",
+              "sets": 2,
+              "reps": "20 metres each hand",
+              "load": "One light dumbbell (start 6 kg)",
+              "restSeconds": 75,
+              "cue": "Carry it like a suitcase — walk tall, don't lean towards the weight",
+              "alternative": "Shorter walk, lighter weight",
+              "stopIf": "Feeling unsteady — put it down and walk without it"
+            },
+            {
+              "name": "Standing Knee Lift & Reach",
+              "sets": 2,
+              "reps": "5 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Hold the bench, lift one knee gently while reaching forward with the other arm",
+              "alternative": "Just the knee lift, no reach",
+              "stopIf": "Unsteady or dizzy — sit and rest"
+            },
+            {
+              "name": "Heel-to-Toe Walk Along the Bench",
+              "sets": 3,
+              "reps": "10 steps",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Walk in a line, one foot placed just in front of the other, fingers tracing the bench",
+              "alternative": "Normal small steps along the bench",
+              "stopIf": "Wobbling — hold the bench firmly, take a break"
+            },
+            {
+              "name": "Easy Walk or Bike",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Comfortable — chatting pace",
+              "restSeconds": 0,
+              "cue": "Finish with easy movement. Outside if the weather's good",
+              "alternative": "5 minutes is plenty if tired",
+              "stopIf": "Knee discomfort when walking — switch to the bike"
+            }
+          ],
+          "cooldown": [
+            "Gentle calf and thigh stretch holding the bench, 30 seconds each",
+            "Three slow deep breaths — done!"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 2 — Finding the rhythm",
+      "note": "Same movements as last week with a couple of extra repeats. Still easy — you should finish every set feeling like you had more in you.",
+      "days": [
+        {
+          "name": "Session A — Legs & Balance",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 gentle marches holding the bench",
+            "5 slow ankle circles each way"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 2,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Two more than last week. Sit tall, push through your heels",
+              "alternative": "Use the armrests for the last couple",
+              "stopIf": "Sharp knee pain — stop and skip"
+            },
+            {
+              "name": "Small Squat Holding the Bench",
+              "sets": 2,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Same small bend as last week — don't go deeper, just do a couple more",
+              "alternative": "Keep the bend tiny",
+              "stopIf": "Any knee pain — smaller bend or stop"
+            },
+            {
+              "name": "Heel Raises Holding the Bench",
+              "sets": 2,
+              "reps": "12",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Slow up, slower down",
+              "alternative": "Both feet, firm grip on the bench",
+              "stopIf": "Calf cramp — stop and stretch"
+            },
+            {
+              "name": "Side Leg Raises at the Bench",
+              "sets": 2,
+              "reps": "10 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Stand tall, small controlled lift",
+              "alternative": "Smaller lift",
+              "stopIf": "Hip or knee pain — stop"
+            },
+            {
+              "name": "Slow Marching with a Pause",
+              "sets": 2,
+              "reps": "12 steps",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Try a longer pause at the top of each lift — one full second",
+              "alternative": "Whole hand on the bench",
+              "stopIf": "Unsteady or dizzy — sit down"
+            },
+            {
+              "name": "Balance Practice — Feet in a Line",
+              "sets": 3,
+              "reps": "25 seconds",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "A little longer than last week. Eyes on a spot on the wall",
+              "alternative": "Feet slightly apart",
+              "stopIf": "Uncontrolled wobble — grab the bench"
+            }
+          ],
+          "cooldown": [
+            "3 minutes easy walking",
+            "Calf stretch at the wall, 30 seconds each leg"
+          ]
+        },
+        {
+          "name": "Session B — Push, Pull & Grip",
+          "estimatedMinutes": 30,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 slow arm circles each way",
+            "10 shoulder rolls"
+          ],
+          "exercises": [
+            {
+              "name": "One-Arm Row, Hand on the Bench",
+              "sets": 2,
+              "reps": "12 each side",
+              "load": "Same dumbbell as last week",
+              "restSeconds": 75,
+              "cue": "Two extra each side. Pull to the hip, squeeze the shoulder blade",
+              "alternative": "Seated version",
+              "stopIf": "Lower back pain — sit down for it"
+            },
+            {
+              "name": "Push-Up Against the Bench",
+              "sets": 2,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Straight line from head to heels, lower slowly",
+              "alternative": "Wall push-ups",
+              "stopIf": "Wrist or shoulder pain — wall version"
+            },
+            {
+              "name": "Seated Shoulder Press",
+              "sets": 2,
+              "reps": "10",
+              "load": "Same light dumbbells",
+              "restSeconds": 75,
+              "cue": "Sit tall, smooth press, soft elbows at the top",
+              "alternative": "One arm at a time",
+              "stopIf": "Shoulder pinching — lighter or part way up"
+            },
+            {
+              "name": "Standing Curl",
+              "sets": 2,
+              "reps": "12",
+              "load": "Same light dumbbells",
+              "restSeconds": 60,
+              "cue": "Elbows glued to your sides",
+              "alternative": "Seated, one arm at a time",
+              "stopIf": "Elbow pain — go lighter"
+            },
+            {
+              "name": "Farmer Hold — Stand Still and Grip",
+              "sets": 2,
+              "reps": "25 seconds",
+              "load": "Same dumbbells as last week",
+              "restSeconds": 60,
+              "cue": "Five seconds longer. Tall posture, hard grip",
+              "alternative": "One dumbbell, both hands",
+              "stopIf": "Unsteady — put them down"
+            },
+            {
+              "name": "Easy Bike Spin",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Light, chatting pace",
+              "restSeconds": 0,
+              "cue": "Two minutes longer than last week",
+              "alternative": "A steady walk",
+              "stopIf": "Knee discomfort — raise the seat or ease off"
+            }
+          ],
+          "cooldown": [
+            "Doorway chest stretch, 30 seconds",
+            "Shoulder rolls"
+          ]
+        },
+        {
+          "name": "Session C — Move & Carry",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy walking or bike",
+            "10 gentle marches holding the bench"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 2,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Push through the heels, stand fully tall at the top",
+              "alternative": "Armrests for the last couple",
+              "stopIf": "Sharp knee pain — stop"
+            },
+            {
+              "name": "Hip Bridge Lying Down",
+              "sets": 2,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Squeeze at the top for a second before lowering",
+              "alternative": "Smaller lift",
+              "stopIf": "Back or knee pain — stop"
+            },
+            {
+              "name": "Heel Taps on a Low Step",
+              "sets": 2,
+              "reps": "6 each leg",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Gentle tap, all your weight stays on the standing leg — hold the rail",
+              "alternative": "Flat-floor heel taps",
+              "stopIf": "Any knee pain — flat-floor version"
+            },
+            {
+              "name": "Suitcase Carry",
+              "sets": 2,
+              "reps": "25 metres each hand",
+              "load": "Same dumbbell",
+              "restSeconds": 75,
+              "cue": "Walk tall — imagine a book balanced on your head",
+              "alternative": "Shorter walk",
+              "stopIf": "Unsteady — put it down"
+            },
+            {
+              "name": "Standing Knee Lift & Reach",
+              "sets": 2,
+              "reps": "6 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Smooth and slow, light fingertips on the bench",
+              "alternative": "Knee lift only",
+              "stopIf": "Unsteady or dizzy — sit and rest"
+            },
+            {
+              "name": "Heel-to-Toe Walk Along the Bench",
+              "sets": 3,
+              "reps": "12 steps",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Slightly longer walk. Head up, eyes forward",
+              "alternative": "Normal small steps",
+              "stopIf": "Wobbling — hold on and rest"
+            },
+            {
+              "name": "Easy Walk or Bike",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Chatting pace",
+              "restSeconds": 0,
+              "cue": "Comfortable finish",
+              "alternative": "5 minutes if tired",
+              "stopIf": "Knee discomfort walking — use the bike"
+            }
+          ],
+          "cooldown": [
+            "Calf and thigh stretch holding the bench, 30 seconds each",
+            "Three slow deep breaths"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 3 — A third set",
+      "note": "This week the main exercises get a third set. Reps drop back down, so each set is short. Take the full rest between sets — no rushing.",
+      "days": [
+        {
+          "name": "Session A — Legs & Balance",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 gentle marches holding the bench",
+            "5 slow ankle circles each way"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 3,
+              "reps": "6",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Three sets now, but only 6 each — plenty of rest between",
+              "alternative": "Armrests on the third set if needed",
+              "stopIf": "Sharp knee pain — stop and skip"
+            },
+            {
+              "name": "Small Squat Holding the Bench",
+              "sets": 3,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Same comfortable depth — the third set is the only change",
+              "alternative": "Tiny bend is still a rep",
+              "stopIf": "Any knee pain — smaller or stop"
+            },
+            {
+              "name": "Heel Raises Holding the Bench",
+              "sets": 3,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Try pausing for a second right at the top",
+              "alternative": "Both feet, firm grip",
+              "stopIf": "Calf cramp — stop and stretch"
+            },
+            {
+              "name": "Side Leg Raises at the Bench",
+              "sets": 2,
+              "reps": "10 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Control it on the way down too",
+              "alternative": "Smaller lift",
+              "stopIf": "Hip or knee pain — stop"
+            },
+            {
+              "name": "Slow Marching with a Pause",
+              "sets": 2,
+              "reps": "12 steps",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Can you do a few steps with just one fingertip on the bench?",
+              "alternative": "Whole hand is always fine",
+              "stopIf": "Unsteady or dizzy — sit down"
+            },
+            {
+              "name": "Balance Practice — Feet in a Line",
+              "sets": 3,
+              "reps": "30 seconds",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Half a minute now. Breathe normally — don't hold your breath",
+              "alternative": "Feet slightly apart",
+              "stopIf": "Uncontrolled wobble — grab the bench"
+            }
+          ],
+          "cooldown": [
+            "3 minutes easy walking",
+            "Calf stretch at the wall, 30 seconds each leg"
+          ]
+        },
+        {
+          "name": "Session B — Push, Pull & Grip",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 slow arm circles each way",
+            "10 shoulder rolls"
+          ],
+          "exercises": [
+            {
+              "name": "One-Arm Row, Hand on the Bench",
+              "sets": 3,
+              "reps": "10 each side",
+              "load": "Same dumbbell — or one size up if the last week felt easy",
+              "restSeconds": 75,
+              "cue": "Third set added. Smooth pull, no jerking",
+              "alternative": "Seated version",
+              "stopIf": "Lower back pain — seated version"
+            },
+            {
+              "name": "Push-Up Against the Bench",
+              "sets": 3,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Three short sets beats two long ones. Slow lowering",
+              "alternative": "Wall push-ups",
+              "stopIf": "Wrist or shoulder pain — wall version"
+            },
+            {
+              "name": "Seated Shoulder Press",
+              "sets": 3,
+              "reps": "8",
+              "load": "Same light dumbbells",
+              "restSeconds": 75,
+              "cue": "Back stays against the chair the whole set",
+              "alternative": "One arm at a time",
+              "stopIf": "Shoulder pinching — lighter or part way"
+            },
+            {
+              "name": "Standing Curl",
+              "sets": 2,
+              "reps": "12",
+              "load": "Same light dumbbells",
+              "restSeconds": 60,
+              "cue": "Slow lower — count three seconds down",
+              "alternative": "Seated, one arm",
+              "stopIf": "Elbow pain — lighter"
+            },
+            {
+              "name": "Farmer Hold — Stand Still and Grip",
+              "sets": 3,
+              "reps": "20 seconds",
+              "load": "Same dumbbells",
+              "restSeconds": 60,
+              "cue": "Three holds now. Stand like a soldier",
+              "alternative": "One dumbbell, both hands",
+              "stopIf": "Unsteady — put them down"
+            },
+            {
+              "name": "Easy Bike Spin",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Light, chatting pace",
+              "restSeconds": 0,
+              "cue": "Steady and comfortable",
+              "alternative": "A steady walk",
+              "stopIf": "Knee discomfort — adjust the seat or ease off"
+            }
+          ],
+          "cooldown": [
+            "Doorway chest stretch, 30 seconds",
+            "Shoulder rolls"
+          ]
+        },
+        {
+          "name": "Session C — Move & Carry",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "5 minutes easy walking or bike",
+            "10 gentle marches holding the bench"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 3,
+              "reps": "6",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Third set added — this is the most important exercise in the whole program",
+              "alternative": "Armrests when needed",
+              "stopIf": "Sharp knee pain — stop"
+            },
+            {
+              "name": "Hip Bridge Lying Down",
+              "sets": 3,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Squeeze and hold one second at the top",
+              "alternative": "Smaller lift",
+              "stopIf": "Back or knee pain — stop"
+            },
+            {
+              "name": "Heel Taps on a Low Step",
+              "sets": 2,
+              "reps": "8 each leg",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Still just a tap — no weight goes onto the stepping foot",
+              "alternative": "Flat-floor taps",
+              "stopIf": "Any knee pain — flat-floor version"
+            },
+            {
+              "name": "Suitcase Carry",
+              "sets": 3,
+              "reps": "20 metres each hand",
+              "load": "Same dumbbell — or one size up if easy",
+              "restSeconds": 75,
+              "cue": "Three carries. Tall and steady beats fast",
+              "alternative": "Shorter walks",
+              "stopIf": "Unsteady — put it down"
+            },
+            {
+              "name": "Standing Knee Lift & Reach",
+              "sets": 2,
+              "reps": "6 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Try one or two with just fingertips touching",
+              "alternative": "Knee lift only",
+              "stopIf": "Unsteady or dizzy — sit and rest"
+            },
+            {
+              "name": "Heel-to-Toe Walk Along the Bench",
+              "sets": 3,
+              "reps": "12 steps",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Smooth, unhurried steps",
+              "alternative": "Normal small steps",
+              "stopIf": "Wobbling — hold on"
+            },
+            {
+              "name": "Easy Walk or Bike",
+              "sets": 1,
+              "reps": "12 minutes",
+              "load": "Chatting pace",
+              "restSeconds": 0,
+              "cue": "A couple of minutes longer this week",
+              "alternative": "As long as feels good",
+              "stopIf": "Knee discomfort walking — use the bike"
+            }
+          ],
+          "cooldown": [
+            "Calf and thigh stretch holding the bench, 30 seconds each",
+            "Three slow deep breaths"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 4 — Steady and confident",
+      "note": "Last week of the block. Nothing new — just doing the week 3 work a little more smoothly. Notice how much easier the first week's numbers would feel now. Tell Shea how each session felt so he can build the next block.",
+      "days": [
+        {
+          "name": "Session A — Legs & Balance",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 gentle marches holding the bench",
+            "5 slow ankle circles each way"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 3,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "If this feels controlled, try the last set from a slightly lower chair",
+              "alternative": "Stay with the high chair — no rush",
+              "stopIf": "Sharp knee pain — stop and skip"
+            },
+            {
+              "name": "Small Squat Holding the Bench",
+              "sets": 3,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Same depth as always. Smooth as clockwork",
+              "alternative": "Tiny bend",
+              "stopIf": "Any knee pain — smaller or stop"
+            },
+            {
+              "name": "Heel Raises Holding the Bench",
+              "sets": 3,
+              "reps": "12",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Pause at the top, three seconds down",
+              "alternative": "Both feet, firm grip",
+              "stopIf": "Calf cramp — stop and stretch"
+            },
+            {
+              "name": "Side Leg Raises at the Bench",
+              "sets": 2,
+              "reps": "12 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Tall posture, controlled both ways",
+              "alternative": "Smaller lift",
+              "stopIf": "Hip or knee pain — stop"
+            },
+            {
+              "name": "Slow Marching with a Pause",
+              "sets": 2,
+              "reps": "14 steps",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "How many steps can you do with fingertips only?",
+              "alternative": "Whole hand any time",
+              "stopIf": "Unsteady or dizzy — sit down"
+            },
+            {
+              "name": "Balance Practice — Feet in a Line",
+              "sets": 3,
+              "reps": "30 seconds",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Try one round with the front foot swapped",
+              "alternative": "Feet slightly apart",
+              "stopIf": "Uncontrolled wobble — grab the bench"
+            }
+          ],
+          "cooldown": [
+            "3 minutes easy walking",
+            "Calf stretch at the wall, 30 seconds each leg"
+          ]
+        },
+        {
+          "name": "Session B — Push, Pull & Grip",
+          "estimatedMinutes": 35,
+          "warmup": [
+            "5 minutes easy pedalling on the bike",
+            "10 slow arm circles each way",
+            "10 shoulder rolls"
+          ],
+          "exercises": [
+            {
+              "name": "One-Arm Row, Hand on the Bench",
+              "sets": 3,
+              "reps": "12 each side",
+              "load": "Whatever weight felt right in week 3",
+              "restSeconds": 75,
+              "cue": "Strong, smooth pulls — you've earned these",
+              "alternative": "Seated version",
+              "stopIf": "Lower back pain — seated version"
+            },
+            {
+              "name": "Push-Up Against the Bench",
+              "sets": 3,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Chest towards the bench, slow and proud",
+              "alternative": "Wall push-ups",
+              "stopIf": "Wrist or shoulder pain — wall version"
+            },
+            {
+              "name": "Seated Shoulder Press",
+              "sets": 3,
+              "reps": "10",
+              "load": "Same dumbbells",
+              "restSeconds": 75,
+              "cue": "Sit tall — imagine growing an inch as you press",
+              "alternative": "One arm at a time",
+              "stopIf": "Shoulder pinching — lighter or part way"
+            },
+            {
+              "name": "Standing Curl",
+              "sets": 3,
+              "reps": "10",
+              "load": "Same dumbbells",
+              "restSeconds": 60,
+              "cue": "Third set added. Slow lower every rep",
+              "alternative": "Seated, one arm",
+              "stopIf": "Elbow pain — lighter"
+            },
+            {
+              "name": "Farmer Hold — Stand Still and Grip",
+              "sets": 3,
+              "reps": "30 seconds",
+              "load": "Same dumbbells",
+              "restSeconds": 60,
+              "cue": "Half a minute of soldier-straight standing. Great for grip and posture",
+              "alternative": "One dumbbell, both hands",
+              "stopIf": "Unsteady — put them down"
+            },
+            {
+              "name": "Easy Bike Spin",
+              "sets": 1,
+              "reps": "12 minutes",
+              "load": "Light, chatting pace",
+              "restSeconds": 0,
+              "cue": "Finish feeling better than you started",
+              "alternative": "A steady walk",
+              "stopIf": "Knee discomfort — adjust or ease off"
+            }
+          ],
+          "cooldown": [
+            "Doorway chest stretch, 30 seconds",
+            "Shoulder rolls"
+          ]
+        },
+        {
+          "name": "Session C — Move & Carry",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "5 minutes easy walking or bike",
+            "10 gentle marches holding the bench"
+          ],
+          "exercises": [
+            {
+              "name": "Sit-to-Stand from a High Chair",
+              "sets": 3,
+              "reps": "8",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Last session of the block — make these the best ones yet",
+              "alternative": "Armrests when needed",
+              "stopIf": "Sharp knee pain — stop"
+            },
+            {
+              "name": "Hip Bridge Lying Down",
+              "sets": 3,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Squeeze at the top, lower with control",
+              "alternative": "Smaller lift",
+              "stopIf": "Back or knee pain — stop"
+            },
+            {
+              "name": "Heel Taps on a Low Step",
+              "sets": 3,
+              "reps": "6 each leg",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Still just taps. If these have been pain-free all month, tell Shea — real step-ups might come next block",
+              "alternative": "Flat-floor taps",
+              "stopIf": "Any knee pain — flat-floor version"
+            },
+            {
+              "name": "Suitcase Carry",
+              "sets": 3,
+              "reps": "25 metres each hand",
+              "load": "Week 3 weight",
+              "restSeconds": 75,
+              "cue": "Tall, steady, strong grip",
+              "alternative": "Shorter walks",
+              "stopIf": "Unsteady — put it down"
+            },
+            {
+              "name": "Standing Knee Lift & Reach",
+              "sets": 2,
+              "reps": "8 each side",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Smooth and confident",
+              "alternative": "Knee lift only",
+              "stopIf": "Unsteady or dizzy — sit and rest"
+            },
+            {
+              "name": "Heel-to-Toe Walk Along the Bench",
+              "sets": 3,
+              "reps": "14 steps",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Longest walk of the block. Look how far balance has come in a month",
+              "alternative": "Normal small steps",
+              "stopIf": "Wobbling — hold on"
+            },
+            {
+              "name": "Easy Walk or Bike",
+              "sets": 1,
+              "reps": "12 minutes",
+              "load": "Chatting pace",
+              "restSeconds": 0,
+              "cue": "Block done. Well earned",
+              "alternative": "As long as feels good",
+              "stopIf": "Knee discomfort walking — use the bike"
+            }
+          ],
+          "cooldown": [
+            "Calf and thigh stretch holding the bench, 30 seconds each",
+            "Three slow deep breaths — that's the block finished!"
+          ]
+        }
+      ]
+    }
+  ]
+}

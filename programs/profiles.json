@@ -1,0 +1,6 @@
+{
+  "profiles": [
+    { "id": "shea", "name": "Shea", "file": "programs/shea.json", "emoji": "🏃" },
+    { "id": "dad", "name": "Dad", "file": "programs/dad.json", "emoji": "💪" }
+  ]
+}

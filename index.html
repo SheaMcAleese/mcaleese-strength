@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>McAleese Strength</title>
+  <meta name="description" content="Personal gym programming for the McAleese family.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1115">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Strength">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+  <div id="app" aria-live="polite">
+    <div class="loading">Loading…</div>
+  </div>
+  <div id="timer-overlay" class="timer-overlay hidden" role="dialog" aria-label="Rest timer">
+    <div class="timer-box">
+      <div class="timer-label">Rest</div>
+      <div class="timer-count" id="timer-count">90</div>
+      <button class="btn btn-secondary" id="timer-skip">Skip rest</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

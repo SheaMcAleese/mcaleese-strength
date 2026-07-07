@@ -1,0 +1,69 @@
+{
+  "_readme": "Copy this file to programs/<name>.json, edit, then add an entry to programs/profiles.json. Full field reference lives in schema.md. Fields starting with _ are ignored by the app — they exist as inline documentation and are safe to delete.",
+
+  "profile": {
+    "id": "template",
+    "displayName": "New Person",
+    "_theme_options": "dark | light | light-high-contrast",
+    "theme": "light",
+    "largeText": false,
+    "constraints": [
+      "List any injuries or movement restrictions here — shown on their home screen"
+    ],
+    "goals": [
+      "What are they training for?"
+    ]
+  },
+
+  "settings": {
+    "units": "kg",
+    "defaultRestSeconds": 90,
+    "_showHotelVariant": "true = show the 'Hotel gym' toggle (needs hotel overrides on exercises)",
+    "showHotelVariant": false
+  },
+
+  "weeks": [
+    {
+      "label": "Week 1 — Getting started",
+      "note": "Optional note shown at the top of every session this week.",
+      "days": [
+        {
+          "name": "Session A — Full Body",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "5 min easy bike or brisk walk",
+            "10 arm circles each way"
+          ],
+          "exercises": [
+            {
+              "name": "Goblet Squat",
+              "sets": 3,
+              "reps": "8",
+              "load": "Light — should feel like you could do 5 more",
+              "restSeconds": 90,
+              "cue": "Sit back and down, heels stay planted",
+              "alternative": "Sit-to-stand from a chair",
+              "stopIf": "Any sharp joint pain — skip and move on",
+              "_hotel": "Optional overrides for hotel-gym mode. Delete this exercise's 'hotel' key if it already works with dumbbells/treadmill/bodyweight.",
+              "hotel": { "name": "DB Goblet Squat", "load": "Heaviest DB available" }
+            },
+            {
+              "name": "One-Arm DB Row",
+              "sets": 3,
+              "reps": "10 each side",
+              "load": "Moderate",
+              "restSeconds": 60,
+              "cue": "Pull the elbow to your hip, not your shoulder",
+              "alternative": "Band row",
+              "stopIf": ""
+            }
+          ],
+          "cooldown": [
+            "3 min easy walk",
+            "Calf + chest stretch, 30s each"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+{
+  "profile": {
+    "id": "shea",
+    "displayName": "Shea",
+    "theme": "dark",
+    "largeText": false,
+    "constraints": [],
+    "goals": [
+      "HYROX race readiness — strong under fatigue",
+      "Compromised running: hold race pace off every station",
+      "Maintain compound lift strength through the season"
+    ]
+  },
+
+  "settings": {
+    "units": "kg",
+    "defaultRestSeconds": 90,
+    "showHotelVariant": true
+  },
+
+  "weeks": [
+    {
+      "label": "Week 1 — Base",
+      "note": "Establish working weights and interval paces. Main lifts at RPE 7 — leave 2–3 reps in the tank. Note loads in the app; weeks 2–3 build off them.",
+      "days": [
+        {
+          "name": "Lower Strength + Sled",
+          "estimatedMinutes": 65,
+          "warmup": [
+            "5 min easy row or ski",
+            "10 leg swings each direction, each leg",
+            "2 x 10 bodyweight squats + 2 x 20m light sled push"
+          ],
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "sets": 4,
+              "reps": "5",
+              "load": "RPE 7 — 2-3 reps in reserve",
+              "restSeconds": 150,
+              "cue": "Brace hard, drive the floor apart",
+              "alternative": "Goblet squat if the bar isn't moving well today",
+              "hotel": { "name": "DB Goblet Squat", "reps": "10", "load": "Heaviest DB available", "restSeconds": 90 }
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": 3,
+              "reps": "8",
+              "load": "RPE 7",
+              "restSeconds": 120,
+              "cue": "Hips back, bar drags the thighs, feel the hamstrings load",
+              "alternative": "DB RDL",
+              "hotel": { "name": "DB Romanian Deadlift", "load": "Two heavy DBs" }
+            },
+            {
+              "name": "Heavy Sled Push",
+              "sets": 4,
+              "reps": "20m",
+              "load": "Heavy — 30-40s per length",
+              "restSeconds": 90,
+              "cue": "Low arms, long spine, short driving steps",
+              "alternative": "Leg press cluster 4 x 12 if no sled",
+              "hotel": { "name": "Treadmill Sled Push (belt off)", "reps": "30s", "load": "Max incline, drive belt with legs, hands on rails" }
+            },
+            {
+              "name": "Sled Pull",
+              "sets": 4,
+              "reps": "20m",
+              "load": "Moderate-heavy",
+              "restSeconds": 90,
+              "cue": "Stay low, rip with the whole body — legs then arms",
+              "alternative": "Heavy rope face pull + backwards drag on turf",
+              "hotel": { "name": "Heavy DB Bent-Over Row", "reps": "12", "load": "Heaviest DBs", "restSeconds": 75 }
+            },
+            {
+              "name": "Weighted Walking Lunges",
+              "sets": 3,
+              "reps": "20m",
+              "load": "2 x 22.5kg DBs",
+              "restSeconds": 90,
+              "cue": "Knee kisses the floor, torso tall — race-leg endurance",
+              "alternative": "Reverse lunges in place"
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 3,
+              "reps": "20",
+              "load": "9kg to 3m target",
+              "restSeconds": 60,
+              "cue": "Ride the squat bounce into the throw — breathe every rep",
+              "alternative": "Lighter ball, keep sets unbroken",
+              "hotel": { "name": "DB Thrusters", "reps": "15", "load": "2 x 10kg DBs" }
+            },
+            {
+              "name": "Hollow Hold",
+              "sets": 3,
+              "reps": "40s",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Lower back pressed into the floor throughout",
+              "alternative": "Bent-knee hollow hold"
+            }
+          ],
+          "cooldown": [
+            "5 min easy walk or spin",
+            "Quad + hip flexor stretch, 45s each side"
+          ]
+        },
+        {
+          "name": "Engine — Run Intervals + Erg",
+          "estimatedMinutes": 60,
+          "warmup": [
+            "10 min easy run building to steady",
+            "4 x 20s strides with walk-back recovery"
+          ],
+          "exercises": [
+            {
+              "name": "Run Intervals",
+              "sets": 6,
+              "reps": "800m",
+              "load": "10k effort — controlled discomfort",
+              "restSeconds": 90,
+              "cue": "Relaxed shoulders, quick feet. Same split every rep",
+              "alternative": "6 x 3 min at the same effort if no track/measured loop",
+              "hotel": { "name": "Treadmill Intervals", "reps": "800m", "load": "10k pace, 1% incline" }
+            },
+            {
+              "name": "Ski Erg",
+              "sets": 4,
+              "reps": "250m",
+              "load": "Hard — 5-10s slower than max pace",
+              "restSeconds": 60,
+              "cue": "Hinge and crunch, arms finish long past the hips",
+              "alternative": "Rope slams 4 x 30s",
+              "hotel": { "name": "Burpees", "reps": "15", "load": "Bodyweight, steady rhythm" }
+            },
+            {
+              "name": "Row",
+              "sets": 4,
+              "reps": "250m",
+              "load": "Hard — hold pace across all four",
+              "restSeconds": 60,
+              "cue": "Legs-body-arms. Long strokes beat fast ones",
+              "alternative": "Bike erg 4 x 45s hard",
+              "hotel": { "name": "Treadmill Hill Surges", "reps": "60s", "load": "5-8% incline, hard effort" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 3,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Land soft, step into the next rep — pace like race day, not a sprint",
+              "alternative": "Burpee + step-forward if jumping is beat up today"
+            }
+          ],
+          "cooldown": [
+            "8 min very easy jog or walk",
+            "Calf + hamstring stretch, 45s each"
+          ]
+        },
+        {
+          "name": "Upper Strength + Carries",
+          "estimatedMinutes": 60,
+          "warmup": [
+            "5 min ski erg easy",
+            "Band pull-aparts x 20, scap push-ups x 10",
+            "2 warm-up sets on bench"
+          ],
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": 4,
+              "reps": "6",
+              "load": "RPE 7",
+              "restSeconds": 150,
+              "cue": "Feet rooted, bar path over the wrists, controlled touch",
+              "alternative": "DB bench press",
+              "hotel": { "name": "DB Bench or Floor Press", "reps": "10", "load": "Heaviest DBs", "restSeconds": 90 }
+            },
+            {
+              "name": "Strict Pull-Ups",
+              "sets": 4,
+              "reps": "8",
+              "load": "Bodyweight — add load if 8 is easy",
+              "restSeconds": 120,
+              "cue": "Full hang to chin over — no kipping today",
+              "alternative": "Ring rows or banded pull-ups",
+              "hotel": { "name": "Renegade Row", "reps": "8 each side", "load": "Moderate DBs", "restSeconds": 90 }
+            },
+            {
+              "name": "Strict Press",
+              "sets": 3,
+              "reps": "8",
+              "load": "RPE 7",
+              "restSeconds": 120,
+              "cue": "Squeeze glutes, ribs down, punch the ceiling",
+              "alternative": "Seated DB press",
+              "hotel": { "name": "Standing DB Press", "load": "Two DBs" }
+            },
+            {
+              "name": "Bent-Over Row",
+              "sets": 3,
+              "reps": "10",
+              "load": "RPE 7",
+              "restSeconds": 90,
+              "cue": "Hinge held, bar to the sternum, no torso bounce",
+              "alternative": "Chest-supported row",
+              "hotel": { "name": "One-Arm DB Row", "reps": "12 each side", "load": "Heaviest DB" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 4,
+              "reps": "40m",
+              "load": "2 x 32kg — race weight or above",
+              "restSeconds": 90,
+              "cue": "Crush grip, tall posture, quick feet — don't let the handles swing",
+              "alternative": "Trap bar carry",
+              "hotel": { "name": "DB Farmers Carry", "load": "Heaviest pair, extra lengths to match time under load" }
+            },
+            {
+              "name": "Hanging Knee Raises",
+              "sets": 3,
+              "reps": "12",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "No swing — lift with the abs, lower slow",
+              "alternative": "Lying leg raises",
+              "hotel": { "name": "V-Ups", "reps": "15" }
+            }
+          ],
+          "cooldown": [
+            "Dead hang 2 x 30s",
+            "Lat + pec stretch, 45s each"
+          ]
+        },
+        {
+          "name": "HYROX Compromised Session",
+          "estimatedMinutes": 50,
+          "warmup": [
+            "5 min easy run",
+            "10 bodyweight squats, 5 burpees, 10 light wall balls",
+            "2 x 30s build-up run to race pace"
+          ],
+          "exercises": [
+            {
+              "name": "Run 1km (Round 1)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Target HYROX race pace",
+              "restSeconds": 0,
+              "cue": "Settle in the first 200m — this should feel almost easy fresh",
+              "alternative": "5 min at race effort",
+              "hotel": { "name": "Treadmill 1km (Round 1)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 1,
+              "reps": "25",
+              "load": "9kg",
+              "restSeconds": 0,
+              "cue": "Break planned: 15 + 10 max. Straight onto the run after",
+              "alternative": "Lighter ball, unbroken",
+              "hotel": { "name": "DB Thrusters", "reps": "20", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Run 1km (Round 2)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Same race pace — this is the training effect",
+              "restSeconds": 0,
+              "cue": "First 200m off the station decides the split. Commit early",
+              "alternative": "5 min at race effort",
+              "hotel": { "name": "Treadmill 1km (Round 2)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 1,
+              "reps": "15",
+              "load": "Bodyweight",
+              "restSeconds": 0,
+              "cue": "Metronome pace — same rhythm rep 1 to rep 15",
+              "alternative": "Burpee step-forwards"
+            },
+            {
+              "name": "Run 1km (Round 3)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Legs are heavy now. Shorten the stride, keep the cadence",
+              "alternative": "5 min at race effort",
+              "hotel": { "name": "Treadmill 1km (Round 3)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 1,
+              "reps": "200m",
+              "load": "2 x 24kg",
+              "restSeconds": 0,
+              "cue": "One planned set-down at 100m max",
+              "alternative": "2 x 100m with short reset",
+              "hotel": { "name": "DB Farmers Carry", "reps": "200m", "load": "Heaviest pair" }
+            },
+            {
+              "name": "Row Finisher",
+              "sets": 1,
+              "reps": "1000m",
+              "load": "Strong — empty the tank in the last 250m",
+              "restSeconds": 0,
+              "cue": "Negative split it",
+              "alternative": "Bike 3 min hard",
+              "hotel": { "name": "Treadmill 800m Finisher", "load": "Faster than race pace" }
+            }
+          ],
+          "cooldown": [
+            "10 min easy walk",
+            "Full lower-body stretch — quads, hamstrings, calves, glutes"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 2 — Build",
+      "note": "Volume climbs: an extra set on the main lifts, more interval reps, heavier sled. Same RPE targets — the load should creep up because week 1 calibrated it.",
+      "days": [
+        {
+          "name": "Lower Strength + Sled",
+          "estimatedMinutes": 70,
+          "warmup": [
+            "5 min easy row or ski",
+            "10 leg swings each direction, each leg",
+            "2 x 10 bodyweight squats + 2 x 20m light sled push"
+          ],
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "sets": 5,
+              "reps": "5",
+              "load": "Week 1 weight + 2.5-5kg, still RPE 7-8",
+              "restSeconds": 150,
+              "cue": "Fifth set added. Same bar speed on set 5 as set 1",
+              "alternative": "Goblet squat",
+              "hotel": { "name": "DB Goblet Squat", "reps": "12", "load": "Heaviest DB", "restSeconds": 90 }
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": 3,
+              "reps": "10",
+              "load": "Week 1 weight",
+              "restSeconds": 120,
+              "cue": "Two extra reps — hamstrings should be screaming quietly by rep 10",
+              "alternative": "DB RDL",
+              "hotel": { "name": "DB Romanian Deadlift", "load": "Two heavy DBs" }
+            },
+            {
+              "name": "Heavy Sled Push",
+              "sets": 5,
+              "reps": "20m",
+              "load": "Week 1 + 10-20kg",
+              "restSeconds": 90,
+              "cue": "Heavier and one more length. Grind, don't stall",
+              "alternative": "Leg press cluster 5 x 12",
+              "hotel": { "name": "Treadmill Sled Push (belt off)", "reps": "40s", "load": "Max incline" }
+            },
+            {
+              "name": "Sled Pull",
+              "sets": 5,
+              "reps": "20m",
+              "load": "Week 1 + 10kg",
+              "restSeconds": 90,
+              "cue": "Low hips, violent hands",
+              "alternative": "Backwards drag",
+              "hotel": { "name": "Heavy DB Bent-Over Row", "reps": "12", "load": "Heaviest DBs", "restSeconds": 75 }
+            },
+            {
+              "name": "Weighted Walking Lunges",
+              "sets": 4,
+              "reps": "20m",
+              "load": "2 x 22.5kg DBs",
+              "restSeconds": 90,
+              "cue": "Fourth length added — this is the HYROX 100m in disguise",
+              "alternative": "Reverse lunges in place"
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 3,
+              "reps": "25",
+              "load": "9kg to 3m",
+              "restSeconds": 60,
+              "cue": "Bigger sets. Find the breathing rhythm that survives rep 20",
+              "alternative": "Lighter ball unbroken",
+              "hotel": { "name": "DB Thrusters", "reps": "18", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Hollow Hold",
+              "sets": 3,
+              "reps": "45s",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Press the floor away with your lower back",
+              "alternative": "Bent-knee version"
+            }
+          ],
+          "cooldown": [
+            "5 min easy spin",
+            "Quad + hip flexor stretch, 45s each side"
+          ]
+        },
+        {
+          "name": "Engine — Run Intervals + Erg",
+          "estimatedMinutes": 65,
+          "warmup": [
+            "10 min easy run building to steady",
+            "4 x 20s strides"
+          ],
+          "exercises": [
+            {
+              "name": "Run Intervals",
+              "sets": 8,
+              "reps": "800m",
+              "load": "Same split as week 1 — two more reps",
+              "restSeconds": 90,
+              "cue": "Reps 7 and 8 are the session. Hold the split when it stops being fun",
+              "alternative": "8 x 3 min at 10k effort",
+              "hotel": { "name": "Treadmill Intervals", "reps": "800m", "load": "10k pace, 1% incline" }
+            },
+            {
+              "name": "Ski Erg",
+              "sets": 5,
+              "reps": "250m",
+              "load": "Week 1 pace",
+              "restSeconds": 60,
+              "cue": "Long pulls, hinge from the hips",
+              "alternative": "Rope slams 5 x 30s",
+              "hotel": { "name": "Burpees", "reps": "15", "load": "Steady rhythm" }
+            },
+            {
+              "name": "Row",
+              "sets": 5,
+              "reps": "250m",
+              "load": "Week 1 pace",
+              "restSeconds": 60,
+              "cue": "Same split all five — rowing greedy early costs you late",
+              "alternative": "Bike erg 5 x 45s",
+              "hotel": { "name": "Treadmill Hill Surges", "reps": "60s", "load": "5-8% incline, hard" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 3,
+              "reps": "12",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Two extra per set. Soft landings, no double bounce",
+              "alternative": "Burpee step-forwards"
+            }
+          ],
+          "cooldown": [
+            "8 min very easy jog or walk",
+            "Calf + hamstring stretch"
+          ]
+        },
+        {
+          "name": "Upper Strength + Carries",
+          "estimatedMinutes": 65,
+          "warmup": [
+            "5 min ski erg easy",
+            "Band pull-aparts x 20, scap push-ups x 10",
+            "2 warm-up sets on bench"
+          ],
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": 5,
+              "reps": "6",
+              "load": "Week 1 + 2.5kg",
+              "restSeconds": 150,
+              "cue": "Extra set. Every rep paused a beat on the chest",
+              "alternative": "DB bench",
+              "hotel": { "name": "DB Bench or Floor Press", "reps": "12", "load": "Heaviest DBs", "restSeconds": 90 }
+            },
+            {
+              "name": "Strict Pull-Ups",
+              "sets": 5,
+              "reps": "8",
+              "load": "Same as week 1",
+              "restSeconds": 120,
+              "cue": "Five sets — quality over speed, full range every rep",
+              "alternative": "Ring rows",
+              "hotel": { "name": "Renegade Row", "reps": "10 each side", "load": "Moderate DBs", "restSeconds": 90 }
+            },
+            {
+              "name": "Strict Press",
+              "sets": 4,
+              "reps": "8",
+              "load": "Week 1 weight",
+              "restSeconds": 120,
+              "cue": "Ribs down, no lean-back",
+              "alternative": "Seated DB press",
+              "hotel": { "name": "Standing DB Press", "load": "Two DBs" }
+            },
+            {
+              "name": "Bent-Over Row",
+              "sets": 3,
+              "reps": "12",
+              "load": "Week 1 weight",
+              "restSeconds": 90,
+              "cue": "Two extra reps, zero extra body english",
+              "alternative": "Chest-supported row",
+              "hotel": { "name": "One-Arm DB Row", "reps": "12 each side", "load": "Heaviest DB" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 5,
+              "reps": "40m",
+              "load": "2 x 32kg",
+              "restSeconds": 90,
+              "cue": "Fifth length. Grip fails before legs — train the grip",
+              "alternative": "Trap bar carry",
+              "hotel": { "name": "DB Farmers Carry", "load": "Heaviest pair, extra lengths" }
+            },
+            {
+              "name": "Hanging Knee Raises",
+              "sets": 3,
+              "reps": "15",
+              "load": "Bodyweight",
+              "restSeconds": 60,
+              "cue": "Slow negatives",
+              "alternative": "Lying leg raises",
+              "hotel": { "name": "V-Ups", "reps": "18" }
+            }
+          ],
+          "cooldown": [
+            "Dead hang 2 x 40s",
+            "Lat + pec stretch"
+          ]
+        },
+        {
+          "name": "HYROX Compromised Session",
+          "estimatedMinutes": 55,
+          "warmup": [
+            "5 min easy run",
+            "10 squats, 5 burpees, 10 light wall balls",
+            "2 x 30s build-ups to race pace"
+          ],
+          "exercises": [
+            {
+              "name": "Run 1km (Round 1)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Four rounds today — bank nothing, spend nothing",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km (Round 1)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Sled Push",
+              "sets": 1,
+              "reps": "50m",
+              "load": "Race weight",
+              "restSeconds": 0,
+              "cue": "4 x 12.5m mentally — reset the arms at each catch",
+              "alternative": "25 heavy goblet squats",
+              "hotel": { "name": "Treadmill Sled Push (belt off)", "reps": "90s", "load": "Max incline" }
+            },
+            {
+              "name": "Run 1km (Round 2)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Legs full of sled — cadence up, stride short",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km (Round 2)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 1,
+              "reps": "30",
+              "load": "9kg",
+              "restSeconds": 0,
+              "cue": "20 + 10, no third break",
+              "alternative": "Lighter ball unbroken",
+              "hotel": { "name": "DB Thrusters", "reps": "25", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Run 1km (Round 3)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "The race is won here. Hold it",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km (Round 3)", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 1,
+              "reps": "20",
+              "load": "Bodyweight",
+              "restSeconds": 0,
+              "cue": "Rhythm over reach",
+              "alternative": "Burpee step-forwards"
+            },
+            {
+              "name": "Run 1km (Round 4)",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace or faster",
+              "restSeconds": 0,
+              "cue": "Last one — negative split if anything is left",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km (Round 4)", "load": "Race pace or faster" }
+            },
+            {
+              "name": "Row Finisher",
+              "sets": 1,
+              "reps": "1000m",
+              "load": "Strong",
+              "restSeconds": 0,
+              "cue": "Everything in the final 250m",
+              "alternative": "Bike 3 min hard",
+              "hotel": { "name": "Treadmill 800m Finisher", "load": "Faster than race pace" }
+            }
+          ],
+          "cooldown": [
+            "10 min easy walk",
+            "Full lower-body stretch"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 3 — Peak",
+      "note": "Heaviest and fastest week of the block. Lifts drop to lower reps at higher load; intervals get faster and shorter rests. Sleep and food are part of the program this week.",
+      "days": [
+        {
+          "name": "Lower Strength + Sled",
+          "estimatedMinutes": 70,
+          "warmup": [
+            "5 min easy row or ski",
+            "10 leg swings each direction",
+            "Build-up squat sets: bar x 8, 50% x 5, 70% x 3"
+          ],
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "sets": 5,
+              "reps": "3",
+              "load": "RPE 8 — heavier than week 2's fives",
+              "restSeconds": 180,
+              "cue": "Triples. Aggressive drive out of the hole, full rest between sets",
+              "alternative": "Heavy goblet squat 5 x 6",
+              "hotel": { "name": "DB Goblet Squat (paused)", "reps": "8", "load": "Heaviest DB, 2s pause at bottom", "restSeconds": 120 }
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": 4,
+              "reps": "8",
+              "load": "Week 2 + 5kg",
+              "restSeconds": 120,
+              "cue": "Heavier — position beats weight, don't round to lift more",
+              "alternative": "DB RDL",
+              "hotel": { "name": "DB Romanian Deadlift", "load": "Two heavy DBs, slow lowers" }
+            },
+            {
+              "name": "Heavy Sled Push",
+              "sets": 5,
+              "reps": "20m",
+              "load": "Heaviest of the block",
+              "restSeconds": 120,
+              "cue": "Race-day heavy. Full recovery, full quality",
+              "alternative": "Leg press cluster",
+              "hotel": { "name": "Treadmill Sled Push (belt off)", "reps": "45s", "load": "Max incline, max drive" }
+            },
+            {
+              "name": "Sled Pull",
+              "sets": 5,
+              "reps": "20m",
+              "load": "Heaviest of the block",
+              "restSeconds": 120,
+              "cue": "Every pull a statement",
+              "alternative": "Backwards drag",
+              "hotel": { "name": "Heavy DB Bent-Over Row", "reps": "10", "load": "Heaviest DBs, strict", "restSeconds": 90 }
+            },
+            {
+              "name": "Weighted Walking Lunges",
+              "sets": 4,
+              "reps": "20m",
+              "load": "2 x 25kg DBs",
+              "restSeconds": 90,
+              "cue": "Heavier hands. Torso doesn't tip",
+              "alternative": "Reverse lunges"
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 4,
+              "reps": "25",
+              "load": "9kg to 3m",
+              "restSeconds": 60,
+              "cue": "100 total — race volume. Manage the legs",
+              "alternative": "Lighter ball",
+              "hotel": { "name": "DB Thrusters", "reps": "20", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Hollow Hold",
+              "sets": 3,
+              "reps": "50s",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Quality shape or stop the clock",
+              "alternative": "Bent-knee version"
+            }
+          ],
+          "cooldown": [
+            "5 min easy spin",
+            "Quad + hip flexor stretch"
+          ]
+        },
+        {
+          "name": "Engine — Run Intervals + Erg",
+          "estimatedMinutes": 60,
+          "warmup": [
+            "10 min easy run building to steady",
+            "4 x 20s strides"
+          ],
+          "exercises": [
+            {
+              "name": "Run Intervals",
+              "sets": 10,
+              "reps": "400m",
+              "load": "5k effort — faster than the 800s",
+              "restSeconds": 60,
+              "cue": "Short and sharp. Rest is only 60s — stay tall on the recoveries",
+              "alternative": "10 x 90s fast",
+              "hotel": { "name": "Treadmill Intervals", "reps": "400m", "load": "5k pace, 1% incline" }
+            },
+            {
+              "name": "Ski Erg",
+              "sets": 4,
+              "reps": "300m",
+              "load": "Week 1 250m pace held for 300m",
+              "restSeconds": 75,
+              "cue": "Longer reps, same pace — that's fitness",
+              "alternative": "Rope slams 4 x 40s",
+              "hotel": { "name": "Burpees", "reps": "18", "load": "Steady rhythm" }
+            },
+            {
+              "name": "Row",
+              "sets": 4,
+              "reps": "300m",
+              "load": "Same pace as your 250s",
+              "restSeconds": 75,
+              "cue": "Strong finish on each rep — last 100m counts double",
+              "alternative": "Bike erg 4 x 60s hard",
+              "hotel": { "name": "Treadmill Hill Surges", "reps": "75s", "load": "8% incline, hard" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 4,
+              "reps": "10",
+              "load": "Bodyweight",
+              "restSeconds": 75,
+              "cue": "Four quality sets — long jumps, quick ups",
+              "alternative": "Burpee step-forwards"
+            }
+          ],
+          "cooldown": [
+            "8 min very easy jog",
+            "Calf + hamstring stretch"
+          ]
+        },
+        {
+          "name": "Upper Strength + Carries",
+          "estimatedMinutes": 65,
+          "warmup": [
+            "5 min ski erg easy",
+            "Band pull-aparts x 20, scap push-ups x 10",
+            "Build-up bench sets"
+          ],
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": 5,
+              "reps": "4",
+              "load": "RPE 8 — heavier than the sixes",
+              "restSeconds": 180,
+              "cue": "Heavy fours. Tight arch, leg drive, no bounce",
+              "alternative": "DB bench heavy",
+              "hotel": { "name": "DB Bench or Floor Press", "reps": "8", "load": "Heaviest DBs, 3s lowers", "restSeconds": 120 }
+            },
+            {
+              "name": "Weighted Pull-Ups",
+              "sets": 5,
+              "reps": "5",
+              "load": "Add 5-10kg",
+              "restSeconds": 150,
+              "cue": "Load goes on this week. Chin clearly over every rep",
+              "alternative": "Strict bodyweight 5 x 8",
+              "hotel": { "name": "Renegade Row", "reps": "8 each side", "load": "Heaviest manageable DBs", "restSeconds": 90 }
+            },
+            {
+              "name": "Strict Press",
+              "sets": 4,
+              "reps": "6",
+              "load": "Week 2 + 2.5kg",
+              "restSeconds": 120,
+              "cue": "Heavier sixes — grind the last rep, don't jerk it",
+              "alternative": "Seated DB press",
+              "hotel": { "name": "Standing DB Press", "reps": "8", "load": "Heavier DBs" }
+            },
+            {
+              "name": "Bent-Over Row",
+              "sets": 4,
+              "reps": "10",
+              "load": "Week 2 + 5kg",
+              "restSeconds": 90,
+              "cue": "Strict torso — the sled doesn't care about cheat reps",
+              "alternative": "Chest-supported row",
+              "hotel": { "name": "One-Arm DB Row", "reps": "10 each side", "load": "Heaviest DB, strict" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 5,
+              "reps": "50m",
+              "load": "2 x 32kg or heavier",
+              "restSeconds": 120,
+              "cue": "Longest carries of the block — set the grip before you lift",
+              "alternative": "Trap bar carry",
+              "hotel": { "name": "DB Farmers Carry", "load": "Heaviest pair, longer walks" }
+            },
+            {
+              "name": "Hanging Knee Raises",
+              "sets": 3,
+              "reps": "15",
+              "load": "Bodyweight — toes-to-bar if fresh",
+              "restSeconds": 60,
+              "cue": "Controlled swing-free reps",
+              "alternative": "Lying leg raises",
+              "hotel": { "name": "V-Ups", "reps": "20" }
+            }
+          ],
+          "cooldown": [
+            "Dead hang 2 x 45s",
+            "Lat + pec stretch"
+          ]
+        },
+        {
+          "name": "HYROX Simulation — Half Race",
+          "estimatedMinutes": 60,
+          "warmup": [
+            "8 min easy run with 3 x 20s builds",
+            "Light primer: 5 wall balls, 20m sled push easy, 10m lunge"
+          ],
+          "exercises": [
+            {
+              "name": "Run 1km",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Half-race simulation: run every station transition like it's February",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km", "load": "Race pace, 1% incline" }
+            },
+            {
+              "name": "Ski Erg",
+              "sets": 1,
+              "reps": "500m",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Settle into race rhythm in 10 strokes",
+              "alternative": "60 rope slams",
+              "hotel": { "name": "Burpees", "reps": "25", "load": "Race-day pacing" }
+            },
+            {
+              "name": "Run 1km",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Arms heavy from the ski — legs don't know that",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km", "load": "Race pace" }
+            },
+            {
+              "name": "Sled Push + Sled Pull",
+              "sets": 1,
+              "reps": "25m + 25m",
+              "load": "Race weights",
+              "restSeconds": 0,
+              "cue": "Push then pull back-to-back — the worst double in the sport",
+              "alternative": "20 heavy goblet squats + 20 heavy rows",
+              "hotel": { "name": "Treadmill Sled Push + DB Row", "reps": "60s + 15 rows", "load": "Max incline / heaviest DBs" }
+            },
+            {
+              "name": "Run 1km",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "This is the compromised running HYROX is about",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km", "load": "Race pace" }
+            },
+            {
+              "name": "Burpee Broad Jumps",
+              "sets": 1,
+              "reps": "40m",
+              "load": "Bodyweight",
+              "restSeconds": 0,
+              "cue": "Half race distance. Rhythm from rep one",
+              "alternative": "20 burpee step-forwards"
+            },
+            {
+              "name": "Run 1km",
+              "sets": 1,
+              "reps": "1km",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Fourth run — hold form together deliberately",
+              "alternative": "5 min race effort",
+              "hotel": { "name": "Treadmill 1km", "load": "Race pace" }
+            },
+            {
+              "name": "Wall Balls Finisher",
+              "sets": 1,
+              "reps": "50",
+              "load": "9kg",
+              "restSeconds": 0,
+              "cue": "Half the race's wall balls, on wrecked legs. Break smart: 20/15/15",
+              "alternative": "Lighter ball",
+              "hotel": { "name": "DB Thrusters Finisher", "reps": "40", "load": "2 x 10kg" }
+            }
+          ],
+          "cooldown": [
+            "10 min easy walk",
+            "Full stretch + note your total time in the app"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Week 4 — Deload & Race Rehearsal",
+      "note": "Volume drops ~40%. The point is to absorb the block, not add to it. Keep the bar moving fast at lighter loads, keep the touches on race movements, arrive at next block fresh.",
+      "days": [
+        {
+          "name": "Lower Strength + Sled (Deload)",
+          "estimatedMinutes": 45,
+          "warmup": [
+            "5 min easy row or ski",
+            "10 leg swings each direction",
+            "2 x 10 bodyweight squats"
+          ],
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "sets": 3,
+              "reps": "5",
+              "load": "70% of week 3 weight — fast and crisp",
+              "restSeconds": 120,
+              "cue": "Speed work. Every rep explodes up",
+              "alternative": "Goblet squat",
+              "hotel": { "name": "DB Goblet Squat", "reps": "10", "load": "Moderate DB, fast", "restSeconds": 75 }
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": 2,
+              "reps": "8",
+              "load": "Week 1 weight",
+              "restSeconds": 90,
+              "cue": "Smooth patterning, nothing heavy",
+              "alternative": "DB RDL",
+              "hotel": { "name": "DB Romanian Deadlift", "load": "Moderate DBs" }
+            },
+            {
+              "name": "Sled Push",
+              "sets": 3,
+              "reps": "20m",
+              "load": "Race weight, crisp",
+              "restSeconds": 90,
+              "cue": "Rehearse the start position and hand height",
+              "alternative": "Leg press light",
+              "hotel": { "name": "Treadmill Sled Push (belt off)", "reps": "30s", "load": "Moderate incline" }
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 2,
+              "reps": "20",
+              "load": "9kg",
+              "restSeconds": 60,
+              "cue": "Two smooth unbroken sets",
+              "alternative": "Lighter ball",
+              "hotel": { "name": "DB Thrusters", "reps": "15", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Hollow Hold",
+              "sets": 2,
+              "reps": "40s",
+              "load": "Bodyweight",
+              "restSeconds": 45,
+              "cue": "Easy quality",
+              "alternative": "Bent-knee version"
+            }
+          ],
+          "cooldown": [
+            "5 min easy spin",
+            "Light stretch"
+          ]
+        },
+        {
+          "name": "Engine — Sharpen (Deload)",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "10 min easy run",
+            "3 x 20s strides"
+          ],
+          "exercises": [
+            {
+              "name": "Run Intervals",
+              "sets": 4,
+              "reps": "400m",
+              "load": "5k pace — feel fast, finish fresh",
+              "restSeconds": 90,
+              "cue": "Sharpening, not training. Stop while it feels great",
+              "alternative": "4 x 90s quick",
+              "hotel": { "name": "Treadmill Intervals", "reps": "400m", "load": "5k pace" }
+            },
+            {
+              "name": "Ski Erg",
+              "sets": 2,
+              "reps": "250m",
+              "load": "Race pace",
+              "restSeconds": 75,
+              "cue": "Rhythm touch-up",
+              "alternative": "Rope slams 2 x 30s",
+              "hotel": { "name": "Burpees", "reps": "12", "load": "Smooth" }
+            },
+            {
+              "name": "Row",
+              "sets": 2,
+              "reps": "250m",
+              "load": "Race pace",
+              "restSeconds": 75,
+              "cue": "Clean strokes",
+              "alternative": "Bike 2 x 45s",
+              "hotel": { "name": "Treadmill Hill Surges", "reps": "45s", "load": "5% incline" }
+            }
+          ],
+          "cooldown": [
+            "8 min easy jog or walk",
+            "Calf + hamstring stretch"
+          ]
+        },
+        {
+          "name": "Upper Strength + Carries (Deload)",
+          "estimatedMinutes": 45,
+          "warmup": [
+            "5 min ski erg easy",
+            "Band pull-aparts x 20, scap push-ups x 10"
+          ],
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": 3,
+              "reps": "5",
+              "load": "70% of week 3 — bar speed",
+              "restSeconds": 120,
+              "cue": "Crisp and fast off the chest",
+              "alternative": "DB bench",
+              "hotel": { "name": "DB Bench or Floor Press", "reps": "10", "load": "Moderate DBs", "restSeconds": 75 }
+            },
+            {
+              "name": "Strict Pull-Ups",
+              "sets": 3,
+              "reps": "6",
+              "load": "Bodyweight",
+              "restSeconds": 90,
+              "cue": "Smooth sixes, nothing near failure",
+              "alternative": "Ring rows",
+              "hotel": { "name": "Renegade Row", "reps": "8 each side", "load": "Moderate DBs" }
+            },
+            {
+              "name": "Strict Press",
+              "sets": 2,
+              "reps": "8",
+              "load": "Week 1 weight",
+              "restSeconds": 90,
+              "cue": "Groove the pattern",
+              "alternative": "Seated DB press",
+              "hotel": { "name": "Standing DB Press", "load": "Moderate DBs" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 3,
+              "reps": "40m",
+              "load": "Race weight",
+              "restSeconds": 90,
+              "cue": "Race rehearsal — pick-up, posture, pace",
+              "alternative": "Trap bar carry",
+              "hotel": { "name": "DB Farmers Carry", "load": "Heaviest pair" }
+            }
+          ],
+          "cooldown": [
+            "Dead hang 2 x 30s",
+            "Lat + pec stretch"
+          ]
+        },
+        {
+          "name": "Race Rehearsal — Broken Mini-HYROX",
+          "estimatedMinutes": 40,
+          "warmup": [
+            "8 min easy run with 3 x 20s builds",
+            "Primer: 5 wall balls, 5 burpees"
+          ],
+          "exercises": [
+            {
+              "name": "Run 800m",
+              "sets": 1,
+              "reps": "800m",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Short, sharp rehearsal — everything at race pace, nothing to exhaustion",
+              "alternative": "4 min race effort",
+              "hotel": { "name": "Treadmill 800m", "load": "Race pace" }
+            },
+            {
+              "name": "Wall Balls",
+              "sets": 1,
+              "reps": "15",
+              "load": "9kg",
+              "restSeconds": 0,
+              "cue": "Unbroken, smooth",
+              "alternative": "Lighter ball",
+              "hotel": { "name": "DB Thrusters", "reps": "12", "load": "2 x 10kg" }
+            },
+            {
+              "name": "Run 800m",
+              "sets": 1,
+              "reps": "800m",
+              "load": "Race pace",
+              "restSeconds": 0,
+              "cue": "Quick transition — practice the first 100m off the station",
+              "alternative": "4 min race effort",
+              "hotel": { "name": "Treadmill 800m", "load": "Race pace" }
+            },
+            {
+              "name": "Farmers Carry",
+              "sets": 1,
+              "reps": "100m",
+              "load": "Race weight",
+              "restSeconds": 0,
+              "cue": "One clean carry, no set-downs",
+              "alternative": "2 x 50m",
+              "hotel": { "name": "DB Farmers Carry", "reps": "100m", "load": "Heaviest pair" }
+            },
+            {
+              "name": "Run 800m",
+              "sets": 1,
+              "reps": "800m",
+              "load": "Race pace, finish strong",
+              "restSeconds": 0,
+              "cue": "Block done. Log how the pace felt versus week 1",
+              "alternative": "4 min race effort",
+              "hotel": { "name": "Treadmill 800m", "load": "Race pace or faster" }
+            }
+          ],
+          "cooldown": [
+            "10 min easy walk",
+            "Full stretch — block complete, next block builds from here"
+          ]
+        }
+      ]
+    }
+  ]
+}
