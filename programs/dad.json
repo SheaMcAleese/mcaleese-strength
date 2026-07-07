@@ -5,982 +5,1197 @@
     "theme": "light-high-contrast",
     "largeText": true,
     "constraints": [
-      "No deep knee bending — stay well above parallel",
-      "No jumping or quick direction changes",
-      "No heavy single-leg loading",
-      "Seated or supported options are always fine",
-      "Nothing should ever hurt — mild effort is enough"
+      "Leg press and all knee work — never bend the knee past 90°",
+      "Sharp, sudden, or worsening pain means stop that set",
+      "Machine-based — the machines guide the movement and keep it safe",
+      "At least one full rest day between gym sessions",
+      "Start lighter than you think — only the last two reps should feel hard"
     ],
     "goals": [
-      "Stronger legs for stairs and getting out of chairs",
-      "Better balance — steady on your feet",
-      "Keep shoulders, back and grip strong"
+      "Strong quads to support and protect both knees",
+      "Be in the best possible shape going into surgery, if it's needed",
+      "Feel better day-to-day — stairs, standing and walking",
+      "Good all-round health and posture"
     ]
   },
-
   "settings": {
     "units": "kg",
-    "defaultRestSeconds": 75,
+    "defaultRestSeconds": 60,
     "showHotelVariant": false
   },
-
   "weeks": [
     {
-      "label": "Week 1 — Getting started",
-      "note": "This week is about learning the movements, not working hard. Every set should feel easy — like you could do 3 or 4 more. If anything hurts, skip it and tell Shea.",
+      "label": "Week 1 — Back at it, a step up",
+      "note": "You finished the first program brilliantly — this block steps everything up a notch. The upper-body moves go to 3 sets, and there's a new backwards treadmill walk that's great for your knees. Same rules as always: start light, the last two reps are the only hard ones, and never past 90° on the leg press.",
       "days": [
         {
-          "name": "Session A — Legs & Balance",
-          "estimatedMinutes": 35,
+          "name": "Full Body — Machines · Session 1",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy pedalling on the bike (light resistance, seat high)",
-            "10 gentle marches on the spot, holding the kitchen bench",
-            "5 slow ankle circles each way, each foot"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 2,
-              "reps": "6",
-              "load": "Bodyweight",
-              "restSeconds": 90,
-              "cue": "Sit tall, lean forward a little, push through your heels to stand",
-              "alternative": "Use the armrests to help yourself up",
-              "stopIf": "Sharp pain in the knee, or the knee feels like it might give way — stop and skip this one"
-            },
-            {
-              "name": "Small Squat Holding the Bench",
-              "sets": 2,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Bend the knees just a little — thighs stay well above level. Hold the bench the whole time",
-              "alternative": "Make the bend even smaller — a few centimetres is fine",
-              "stopIf": "Any knee pain at all — make the bend smaller or stop"
-            },
-            {
-              "name": "Heel Raises Holding the Bench",
-              "sets": 2,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Rise up onto your toes slowly, lower down even slower",
-              "alternative": "Rise up with both feet, hold the bench firmly",
-              "stopIf": "Cramping or sharp calf pain — stop and stretch gently"
-            },
-            {
-              "name": "Side Leg Raises at the Bench",
-              "sets": 2,
-              "reps": "8 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Stand tall, lift the leg out to the side — small lift, no leaning",
-              "alternative": "Smaller lift, or just shift your weight side to side",
-              "stopIf": "Hip or knee pain — stop"
-            },
-            {
-              "name": "Slow Marching with a Pause",
-              "sets": 2,
-              "reps": "10 steps",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Lift one knee, pause for a second, place it down gently. Fingertips on the bench",
-              "alternative": "Hold the bench with your whole hand",
-              "stopIf": "Feeling unsteady or dizzy — sit down and rest"
-            },
-            {
-              "name": "Balance Practice — Feet in a Line",
+              "name": "Leg Press (Machine)",
               "sets": 3,
-              "reps": "20 seconds",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "One foot in front of the other like a tightrope, next to the bench. Eyes up",
-              "alternative": "Feet slightly apart instead of in a line",
-              "stopIf": "Any wobble you can't control — grab the bench, that's what it's there for"
-            }
-          ],
-          "cooldown": [
-            "3 minutes easy walking around the house",
-            "Gentle calf stretch at the wall, 30 seconds each leg — no bouncing"
-          ]
-        },
-        {
-          "name": "Session B — Push, Pull & Grip",
-          "estimatedMinutes": 30,
-          "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 slow arm circles each way",
-            "10 shoulder rolls"
-          ],
-          "exercises": [
-            {
-              "name": "One-Arm Row, Hand on the Bench",
-              "sets": 2,
-              "reps": "10 each side",
-              "load": "Light dumbbell (start 4–6 kg)",
-              "restSeconds": 75,
-              "cue": "Lean on the bench with one hand, pull the weight to your hip",
-              "alternative": "Sit on a chair and do it one arm at a time, elbow to your side",
-              "stopIf": "Lower back pain — sit down for the seated version instead"
-            },
-            {
-              "name": "Push-Up Against the Bench",
-              "sets": 2,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Hands on the bench, body in a straight line, lower slowly",
-              "alternative": "Stand closer to the bench, or push against the wall instead",
-              "stopIf": "Wrist or shoulder pain — switch to the wall version"
-            },
-            {
-              "name": "Seated Shoulder Press",
-              "sets": 2,
-              "reps": "8",
-              "load": "Light dumbbells (start 3–4 kg)",
-              "restSeconds": 75,
-              "cue": "Sit tall against the chair back, press up smoothly, don't lock the elbows hard",
-              "alternative": "One arm at a time, or press only to eye level",
-              "stopIf": "Shoulder pinching — lower the weight or press only part way up"
-            },
-            {
-              "name": "Standing Curl",
-              "sets": 2,
-              "reps": "10",
-              "load": "Light dumbbells",
-              "restSeconds": 60,
-              "cue": "Elbows by your sides, curl up slowly, lower even slower",
-              "alternative": "Sit down and do one arm at a time",
-              "stopIf": "Elbow pain — go lighter"
-            },
-            {
-              "name": "Farmer Hold — Stand Still and Grip",
-              "sets": 2,
-              "reps": "20 seconds",
-              "load": "One dumbbell each hand (start 6–8 kg)",
-              "restSeconds": 60,
-              "cue": "Stand tall, shoulders back, squeeze the handles hard",
-              "alternative": "Hold one dumbbell with both hands in front of you",
-              "stopIf": "Feeling unsteady — put them down, hold the bench, rest"
-            },
-            {
-              "name": "Easy Bike Spin",
-              "sets": 1,
-              "reps": "8 minutes",
-              "load": "Light — you should be able to chat the whole time",
-              "restSeconds": 0,
-              "cue": "Comfortable pace, seat high enough that the knee never bends sharply",
-              "alternative": "A steady walk instead",
-              "stopIf": "Knee discomfort — raise the seat or ease the resistance"
-            }
-          ],
-          "cooldown": [
-            "Gentle chest stretch in a doorway, 30 seconds",
-            "Shake the arms out, roll the shoulders"
-          ]
-        },
-        {
-          "name": "Session C — Move & Carry",
-          "estimatedMinutes": 35,
-          "warmup": [
-            "5 minutes easy walking or easy bike",
-            "10 gentle marches holding the bench"
-          ],
-          "exercises": [
-            {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 2,
-              "reps": "6",
-              "load": "Bodyweight",
+              "reps": "12",
+              "load": "Last 2 reps should feel hard — add a little weight when 12 feels easy",
               "restSeconds": 90,
-              "cue": "Same as Session A — sit tall, push through your heels",
-              "alternative": "Use the armrests to help",
-              "stopIf": "Sharp knee pain — stop and skip"
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Hip Bridge Lying Down",
-              "sets": 2,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Lie on your back, knees bent gently, lift your hips and squeeze your bottom at the top",
-              "alternative": "Smaller lift — even a few centimetres counts",
-              "stopIf": "Back or knee pain — stop"
-            },
-            {
-              "name": "Heel Taps on a Low Step",
-              "sets": 2,
-              "reps": "5 each leg",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Stand on the floor holding the rail, tap one heel onto a low step and back. No stepping up yet",
-              "alternative": "Tap the heel on the flat floor in front of you instead",
-              "stopIf": "Any knee pain — do the flat-floor version"
-            },
-            {
-              "name": "Suitcase Carry",
-              "sets": 2,
-              "reps": "20 metres each hand",
-              "load": "One light dumbbell (start 6 kg)",
-              "restSeconds": 75,
-              "cue": "Carry it like a suitcase — walk tall, don't lean towards the weight",
-              "alternative": "Shorter walk, lighter weight",
-              "stopIf": "Feeling unsteady — put it down and walk without it"
-            },
-            {
-              "name": "Standing Knee Lift & Reach",
-              "sets": 2,
-              "reps": "5 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Hold the bench, lift one knee gently while reaching forward with the other arm",
-              "alternative": "Just the knee lift, no reach",
-              "stopIf": "Unsteady or dizzy — sit and rest"
-            },
-            {
-              "name": "Heel-to-Toe Walk Along the Bench",
+              "name": "Leg Extension (Seated Machine)",
               "sets": 3,
-              "reps": "10 steps",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "Walk in a line, one foot placed just in front of the other, fingers tracing the bench",
-              "alternative": "Normal small steps along the bench",
-              "stopIf": "Wobbling — hold the bench firmly, take a break"
+              "reps": "10",
+              "load": "Light — precision over weight, hold 2s at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Easy Walk or Bike",
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "15",
+              "load": "Moderate — slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
               "reps": "10 minutes",
-              "load": "Comfortable — chatting pace",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Finish with easy movement. Outside if the weather's good",
-              "alternative": "5 minutes is plenty if tired",
-              "stopIf": "Knee discomfort when walking — switch to the bike"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Gentle calf and thigh stretch holding the bench, 30 seconds each",
-            "Three slow deep breaths — done!"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
+          ]
+        },
+        {
+          "name": "Full Body — Machines · Session 2",
+          "estimatedMinutes": 55,
+          "warmup": [
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
+          ],
+          "exercises": [
+            {
+              "name": "Leg Press (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Last 2 reps should feel hard — add a little weight when 12 feels easy",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
+            },
+            {
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "10",
+              "load": "Light — precision over weight, hold 2s at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "15",
+              "load": "Moderate — slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
+              "restSeconds": 0,
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
+            }
+          ],
+          "cooldown": [
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
+          ]
+        },
+        {
+          "name": "Full Body — Machines · Session 3",
+          "estimatedMinutes": 55,
+          "warmup": [
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
+          ],
+          "exercises": [
+            {
+              "name": "Leg Press (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Last 2 reps should feel hard — add a little weight when 12 feels easy",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
+            },
+            {
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "10",
+              "load": "Light — precision over weight, hold 2s at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "15",
+              "load": "Moderate — slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Moderate — now 3 sets",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
+              "restSeconds": 0,
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
+            }
+          ],
+          "cooldown": [
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         }
       ]
     },
     {
-      "label": "Week 2 — Finding the rhythm",
-      "note": "Same movements as last week with a couple of extra repeats. Still easy — you should finish every set feeling like you had more in you.",
+      "label": "Week 2 — Adding a little",
+      "note": "A few more reps this week. If the leg press feels comfortable at 14, add a small amount of weight next week instead of chasing more reps.",
       "days": [
         {
-          "name": "Session A — Legs & Balance",
-          "estimatedMinutes": 35,
+          "name": "Full Body — Machines · Session 1",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 gentle marches holding the bench",
-            "5 slow ankle circles each way"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 2,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 90,
-              "cue": "Two more than last week. Sit tall, push through your heels",
-              "alternative": "Use the armrests for the last couple",
-              "stopIf": "Sharp knee pain — stop and skip"
-            },
-            {
-              "name": "Small Squat Holding the Bench",
-              "sets": 2,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Same small bend as last week — don't go deeper, just do a couple more",
-              "alternative": "Keep the bend tiny",
-              "stopIf": "Any knee pain — smaller bend or stop"
-            },
-            {
-              "name": "Heel Raises Holding the Bench",
-              "sets": 2,
-              "reps": "12",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Slow up, slower down",
-              "alternative": "Both feet, firm grip on the bench",
-              "stopIf": "Calf cramp — stop and stretch"
-            },
-            {
-              "name": "Side Leg Raises at the Bench",
-              "sets": 2,
-              "reps": "10 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Stand tall, small controlled lift",
-              "alternative": "Smaller lift",
-              "stopIf": "Hip or knee pain — stop"
-            },
-            {
-              "name": "Slow Marching with a Pause",
-              "sets": 2,
-              "reps": "12 steps",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Try a longer pause at the top of each lift — one full second",
-              "alternative": "Whole hand on the bench",
-              "stopIf": "Unsteady or dizzy — sit down"
-            },
-            {
-              "name": "Balance Practice — Feet in a Line",
+              "name": "Leg Press (Machine)",
               "sets": 3,
-              "reps": "25 seconds",
-              "load": "Bodyweight",
+              "reps": "14",
+              "load": "Same weight as last week if it moved well",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
+            },
+            {
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Light — hold 2s at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Slow and full range",
               "restSeconds": 45,
-              "cue": "A little longer than last week. Eyes on a spot on the wall",
-              "alternative": "Feet slightly apart",
-              "stopIf": "Uncontrolled wobble — grab the bench"
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
+              "restSeconds": 0,
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "3 minutes easy walking",
-            "Calf stretch at the wall, 30 seconds each leg"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         },
         {
-          "name": "Session B — Push, Pull & Grip",
-          "estimatedMinutes": 30,
+          "name": "Full Body — Machines · Session 2",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 slow arm circles each way",
-            "10 shoulder rolls"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "One-Arm Row, Hand on the Bench",
-              "sets": 2,
-              "reps": "12 each side",
-              "load": "Same dumbbell as last week",
-              "restSeconds": 75,
-              "cue": "Two extra each side. Pull to the hip, squeeze the shoulder blade",
-              "alternative": "Seated version",
-              "stopIf": "Lower back pain — sit down for it"
+              "name": "Leg Press (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Same weight as last week if it moved well",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Push-Up Against the Bench",
-              "sets": 2,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Straight line from head to heels, lower slowly",
-              "alternative": "Wall push-ups",
-              "stopIf": "Wrist or shoulder pain — wall version"
-            },
-            {
-              "name": "Seated Shoulder Press",
-              "sets": 2,
-              "reps": "10",
-              "load": "Same light dumbbells",
-              "restSeconds": 75,
-              "cue": "Sit tall, smooth press, soft elbows at the top",
-              "alternative": "One arm at a time",
-              "stopIf": "Shoulder pinching — lighter or part way up"
-            },
-            {
-              "name": "Standing Curl",
-              "sets": 2,
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
               "reps": "12",
-              "load": "Same light dumbbells",
+              "load": "Light — hold 2s at the top",
               "restSeconds": 60,
-              "cue": "Elbows glued to your sides",
-              "alternative": "Seated, one arm at a time",
-              "stopIf": "Elbow pain — go lighter"
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Farmer Hold — Stand Still and Grip",
-              "sets": 2,
-              "reps": "25 seconds",
-              "load": "Same dumbbells as last week",
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Controlled both ways",
               "restSeconds": 60,
-              "cue": "Five seconds longer. Tall posture, hard grip",
-              "alternative": "One dumbbell, both hands",
-              "stopIf": "Unsteady — put them down"
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
             },
             {
-              "name": "Easy Bike Spin",
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
               "reps": "10 minutes",
-              "load": "Light, chatting pace",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Two minutes longer than last week",
-              "alternative": "A steady walk",
-              "stopIf": "Knee discomfort — raise the seat or ease off"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Doorway chest stretch, 30 seconds",
-            "Shoulder rolls"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         },
         {
-          "name": "Session C — Move & Carry",
-          "estimatedMinutes": 35,
+          "name": "Full Body — Machines · Session 3",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy walking or bike",
-            "10 gentle marches holding the bench"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 2,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 90,
-              "cue": "Push through the heels, stand fully tall at the top",
-              "alternative": "Armrests for the last couple",
-              "stopIf": "Sharp knee pain — stop"
-            },
-            {
-              "name": "Hip Bridge Lying Down",
-              "sets": 2,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Squeeze at the top for a second before lowering",
-              "alternative": "Smaller lift",
-              "stopIf": "Back or knee pain — stop"
-            },
-            {
-              "name": "Heel Taps on a Low Step",
-              "sets": 2,
-              "reps": "6 each leg",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Gentle tap, all your weight stays on the standing leg — hold the rail",
-              "alternative": "Flat-floor heel taps",
-              "stopIf": "Any knee pain — flat-floor version"
-            },
-            {
-              "name": "Suitcase Carry",
-              "sets": 2,
-              "reps": "25 metres each hand",
-              "load": "Same dumbbell",
-              "restSeconds": 75,
-              "cue": "Walk tall — imagine a book balanced on your head",
-              "alternative": "Shorter walk",
-              "stopIf": "Unsteady — put it down"
-            },
-            {
-              "name": "Standing Knee Lift & Reach",
-              "sets": 2,
-              "reps": "6 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Smooth and slow, light fingertips on the bench",
-              "alternative": "Knee lift only",
-              "stopIf": "Unsteady or dizzy — sit and rest"
-            },
-            {
-              "name": "Heel-to-Toe Walk Along the Bench",
+              "name": "Leg Press (Machine)",
               "sets": 3,
-              "reps": "12 steps",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "Slightly longer walk. Head up, eyes forward",
-              "alternative": "Normal small steps",
-              "stopIf": "Wobbling — hold on and rest"
+              "reps": "14",
+              "load": "Same weight as last week if it moved well",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Easy Walk or Bike",
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Light — hold 2s at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Add weight if last week was easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
               "reps": "10 minutes",
-              "load": "Chatting pace",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Comfortable finish",
-              "alternative": "5 minutes if tired",
-              "stopIf": "Knee discomfort walking — use the bike"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Calf and thigh stretch holding the bench, 30 seconds each",
-            "Three slow deep breaths"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         }
       ]
     },
     {
-      "label": "Week 3 — A third set",
-      "note": "This week the main exercises get a third set. Reps drop back down, so each set is short. Take the full rest between sets — no rushing.",
+      "label": "Week 3 — Getting stronger",
+      "note": "An extra set on the leg press and small weight nudges where 12 feels easy. Still smooth, still controlled — quality comes first, always.",
       "days": [
         {
-          "name": "Session A — Legs & Balance",
-          "estimatedMinutes": 40,
+          "name": "Full Body — Machines · Session 1",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 gentle marches holding the bench",
-            "5 slow ankle circles each way"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 3,
-              "reps": "6",
-              "load": "Bodyweight",
-              "restSeconds": 90,
-              "cue": "Three sets now, but only 6 each — plenty of rest between",
-              "alternative": "Armrests on the third set if needed",
-              "stopIf": "Sharp knee pain — stop and skip"
-            },
-            {
-              "name": "Small Squat Holding the Bench",
-              "sets": 3,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Same comfortable depth — the third set is the only change",
-              "alternative": "Tiny bend is still a rep",
-              "stopIf": "Any knee pain — smaller or stop"
-            },
-            {
-              "name": "Heel Raises Holding the Bench",
-              "sets": 3,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Try pausing for a second right at the top",
-              "alternative": "Both feet, firm grip",
-              "stopIf": "Calf cramp — stop and stretch"
-            },
-            {
-              "name": "Side Leg Raises at the Bench",
-              "sets": 2,
-              "reps": "10 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Control it on the way down too",
-              "alternative": "Smaller lift",
-              "stopIf": "Hip or knee pain — stop"
-            },
-            {
-              "name": "Slow Marching with a Pause",
-              "sets": 2,
-              "reps": "12 steps",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Can you do a few steps with just one fingertip on the bench?",
-              "alternative": "Whole hand is always fine",
-              "stopIf": "Unsteady or dizzy — sit down"
-            },
-            {
-              "name": "Balance Practice — Feet in a Line",
-              "sets": 3,
-              "reps": "30 seconds",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "Half a minute now. Breathe normally — don't hold your breath",
-              "alternative": "Feet slightly apart",
-              "stopIf": "Uncontrolled wobble — grab the bench"
-            }
-          ],
-          "cooldown": [
-            "3 minutes easy walking",
-            "Calf stretch at the wall, 30 seconds each leg"
-          ]
-        },
-        {
-          "name": "Session B — Push, Pull & Grip",
-          "estimatedMinutes": 35,
-          "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 slow arm circles each way",
-            "10 shoulder rolls"
-          ],
-          "exercises": [
-            {
-              "name": "One-Arm Row, Hand on the Bench",
-              "sets": 3,
-              "reps": "10 each side",
-              "load": "Same dumbbell — or one size up if the last week felt easy",
-              "restSeconds": 75,
-              "cue": "Third set added. Smooth pull, no jerking",
-              "alternative": "Seated version",
-              "stopIf": "Lower back pain — seated version"
-            },
-            {
-              "name": "Push-Up Against the Bench",
-              "sets": 3,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Three short sets beats two long ones. Slow lowering",
-              "alternative": "Wall push-ups",
-              "stopIf": "Wrist or shoulder pain — wall version"
-            },
-            {
-              "name": "Seated Shoulder Press",
-              "sets": 3,
-              "reps": "8",
-              "load": "Same light dumbbells",
-              "restSeconds": 75,
-              "cue": "Back stays against the chair the whole set",
-              "alternative": "One arm at a time",
-              "stopIf": "Shoulder pinching — lighter or part way"
-            },
-            {
-              "name": "Standing Curl",
-              "sets": 2,
+              "name": "Leg Press (Machine)",
+              "sets": 4,
               "reps": "12",
-              "load": "Same light dumbbells",
-              "restSeconds": 60,
-              "cue": "Slow lower — count three seconds down",
-              "alternative": "Seated, one arm",
-              "stopIf": "Elbow pain — lighter"
+              "load": "A little heavier than week 2",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Farmer Hold — Stand Still and Grip",
+              "name": "Leg Extension (Seated Machine)",
               "sets": 3,
-              "reps": "20 seconds",
-              "load": "Same dumbbells",
+              "reps": "12",
+              "load": "Hold 3 seconds at the top this week",
               "restSeconds": 60,
-              "cue": "Three holds now. Stand like a soldier",
-              "alternative": "One dumbbell, both hands",
-              "stopIf": "Unsteady — put them down"
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Easy Bike Spin",
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Nudge the weight up if 14 was easy",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Full squeeze at the top",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
               "reps": "10 minutes",
-              "load": "Light, chatting pace",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Steady and comfortable",
-              "alternative": "A steady walk",
-              "stopIf": "Knee discomfort — adjust the seat or ease off"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Doorway chest stretch, 30 seconds",
-            "Shoulder rolls"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         },
         {
-          "name": "Session C — Move & Carry",
-          "estimatedMinutes": 40,
+          "name": "Full Body — Machines · Session 2",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy walking or bike",
-            "10 gentle marches holding the bench"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 3,
-              "reps": "6",
-              "load": "Bodyweight",
+              "name": "Leg Press (Machine)",
+              "sets": 4,
+              "reps": "12",
+              "load": "A little heavier than week 2",
               "restSeconds": 90,
-              "cue": "Third set added — this is the most important exercise in the whole program",
-              "alternative": "Armrests when needed",
-              "stopIf": "Sharp knee pain — stop"
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Hip Bridge Lying Down",
+              "name": "Leg Extension (Seated Machine)",
               "sets": 3,
-              "reps": "8",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Squeeze and hold one second at the top",
-              "alternative": "Smaller lift",
-              "stopIf": "Back or knee pain — stop"
-            },
-            {
-              "name": "Heel Taps on a Low Step",
-              "sets": 2,
-              "reps": "8 each leg",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Still just a tap — no weight goes onto the stepping foot",
-              "alternative": "Flat-floor taps",
-              "stopIf": "Any knee pain — flat-floor version"
-            },
-            {
-              "name": "Suitcase Carry",
-              "sets": 3,
-              "reps": "20 metres each hand",
-              "load": "Same dumbbell — or one size up if easy",
-              "restSeconds": 75,
-              "cue": "Three carries. Tall and steady beats fast",
-              "alternative": "Shorter walks",
-              "stopIf": "Unsteady — put it down"
-            },
-            {
-              "name": "Standing Knee Lift & Reach",
-              "sets": 2,
-              "reps": "6 each side",
-              "load": "Bodyweight",
+              "reps": "12",
+              "load": "Hold 3 seconds at the top this week",
               "restSeconds": 60,
-              "cue": "Try one or two with just fingertips touching",
-              "alternative": "Knee lift only",
-              "stopIf": "Unsteady or dizzy — sit and rest"
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Heel-to-Toe Walk Along the Bench",
+              "name": "Seated Leg Curl (Machine)",
               "sets": 3,
-              "reps": "12 steps",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "Smooth, unhurried steps",
-              "alternative": "Normal small steps",
-              "stopIf": "Wobbling — hold on"
+              "reps": "14",
+              "load": "Nudge the weight up if 14 was easy",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
             },
             {
-              "name": "Easy Walk or Bike",
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Full squeeze at the top",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
-              "reps": "12 minutes",
-              "load": "Chatting pace",
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "A couple of minutes longer this week",
-              "alternative": "As long as feels good",
-              "stopIf": "Knee discomfort walking — use the bike"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Calf and thigh stretch holding the bench, 30 seconds each",
-            "Three slow deep breaths"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
+          ]
+        },
+        {
+          "name": "Full Body — Machines · Session 3",
+          "estimatedMinutes": 55,
+          "warmup": [
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
+          ],
+          "exercises": [
+            {
+              "name": "Leg Press (Machine)",
+              "sets": 4,
+              "reps": "12",
+              "load": "A little heavier than week 2",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
+            },
+            {
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold 3 seconds at the top this week",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Nudge the weight up if 14 was easy",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "18",
+              "load": "Full squeeze at the top",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Nudge the weight up if 12 is easy",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
+              "restSeconds": 0,
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
+            }
+          ],
+          "cooldown": [
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         }
       ]
     },
     {
-      "label": "Week 4 — Steady and confident",
-      "note": "Last week of the block. Nothing new — just doing the week 3 work a little more smoothly. Notice how much easier the first week's numbers would feel now. Tell Shea how each session felt so he can build the next block.",
+      "label": "Week 4 — Strong finish",
+      "note": "Last week of the block. Notice how much stronger your legs feel than a month ago. Tell Shea how each session felt so he can set the next step — maybe a bit more weight on the leg press, maybe a little longer on the backwards walk.",
       "days": [
         {
-          "name": "Session A — Legs & Balance",
-          "estimatedMinutes": 40,
+          "name": "Full Body — Machines · Session 1",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 gentle marches holding the bench",
-            "5 slow ankle circles each way"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 3,
-              "reps": "8",
-              "load": "Bodyweight",
+              "name": "Leg Press (Machine)",
+              "sets": 4,
+              "reps": "12",
+              "load": "Hold week 3's weight — make every rep clean",
               "restSeconds": 90,
-              "cue": "If this feels controlled, try the last set from a slightly lower chair",
-              "alternative": "Stay with the high chair — no rush",
-              "stopIf": "Sharp knee pain — stop and skip"
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Small Squat Holding the Bench",
-              "sets": 3,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Same depth as always. Smooth as clockwork",
-              "alternative": "Tiny bend",
-              "stopIf": "Any knee pain — smaller or stop"
-            },
-            {
-              "name": "Heel Raises Holding the Bench",
+              "name": "Leg Extension (Seated Machine)",
               "sets": 3,
               "reps": "12",
-              "load": "Bodyweight",
+              "load": "Hold 3 seconds at the top",
               "restSeconds": 60,
-              "cue": "Pause at the top, three seconds down",
-              "alternative": "Both feet, firm grip",
-              "stopIf": "Calf cramp — stop and stretch"
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Side Leg Raises at the Bench",
-              "sets": 2,
-              "reps": "12 each side",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "Tall posture, controlled both ways",
-              "alternative": "Smaller lift",
-              "stopIf": "Hip or knee pain — stop"
-            },
-            {
-              "name": "Slow Marching with a Pause",
-              "sets": 2,
-              "reps": "14 steps",
-              "load": "Bodyweight",
-              "restSeconds": 60,
-              "cue": "How many steps can you do with fingertips only?",
-              "alternative": "Whole hand any time",
-              "stopIf": "Unsteady or dizzy — sit down"
-            },
-            {
-              "name": "Balance Practice — Feet in a Line",
+              "name": "Seated Leg Curl (Machine)",
               "sets": 3,
-              "reps": "30 seconds",
-              "load": "Bodyweight",
+              "reps": "14",
+              "load": "Controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "20",
+              "load": "Slow and full range",
               "restSeconds": 45,
-              "cue": "Try one round with the front foot swapped",
-              "alternative": "Feet slightly apart",
-              "stopIf": "Uncontrolled wobble — grab the bench"
-            }
-          ],
-          "cooldown": [
-            "3 minutes easy walking",
-            "Calf stretch at the wall, 30 seconds each leg"
-          ]
-        },
-        {
-          "name": "Session B — Push, Pull & Grip",
-          "estimatedMinutes": 35,
-          "warmup": [
-            "5 minutes easy pedalling on the bike",
-            "10 slow arm circles each way",
-            "10 shoulder rolls"
-          ],
-          "exercises": [
-            {
-              "name": "One-Arm Row, Hand on the Bench",
-              "sets": 3,
-              "reps": "12 each side",
-              "load": "Whatever weight felt right in week 3",
-              "restSeconds": 75,
-              "cue": "Strong, smooth pulls — you've earned these",
-              "alternative": "Seated version",
-              "stopIf": "Lower back pain — seated version"
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
             },
             {
-              "name": "Push-Up Against the Bench",
+              "name": "Chest Press (Seated Machine)",
               "sets": 3,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Chest towards the bench, slow and proud",
-              "alternative": "Wall push-ups",
-              "stopIf": "Wrist or shoulder pain — wall version"
-            },
-            {
-              "name": "Seated Shoulder Press",
-              "sets": 3,
-              "reps": "10",
-              "load": "Same dumbbells",
-              "restSeconds": 75,
-              "cue": "Sit tall — imagine growing an inch as you press",
-              "alternative": "One arm at a time",
-              "stopIf": "Shoulder pinching — lighter or part way"
-            },
-            {
-              "name": "Standing Curl",
-              "sets": 3,
-              "reps": "10",
-              "load": "Same dumbbells",
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
               "restSeconds": 60,
-              "cue": "Third set added. Slow lower every rep",
-              "alternative": "Seated, one arm",
-              "stopIf": "Elbow pain — lighter"
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
             },
             {
-              "name": "Farmer Hold — Stand Still and Grip",
+              "name": "Lat Pulldown (Machine)",
               "sets": 3,
-              "reps": "30 seconds",
-              "load": "Same dumbbells",
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
               "restSeconds": 60,
-              "cue": "Half a minute of soldier-straight standing. Great for grip and posture",
-              "alternative": "One dumbbell, both hands",
-              "stopIf": "Unsteady — put them down"
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
             },
             {
-              "name": "Easy Bike Spin",
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
-              "reps": "12 minutes",
-              "load": "Light, chatting pace",
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Finish feeling better than you started",
-              "alternative": "A steady walk",
-              "stopIf": "Knee discomfort — adjust or ease off"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Doorway chest stretch, 30 seconds",
-            "Shoulder rolls"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         },
         {
-          "name": "Session C — Move & Carry",
-          "estimatedMinutes": 40,
+          "name": "Full Body — Machines · Session 2",
+          "estimatedMinutes": 55,
           "warmup": [
-            "5 minutes easy walking or bike",
-            "10 gentle marches holding the bench"
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
           ],
           "exercises": [
             {
-              "name": "Sit-to-Stand from a High Chair",
-              "sets": 3,
-              "reps": "8",
-              "load": "Bodyweight",
+              "name": "Leg Press (Machine)",
+              "sets": 4,
+              "reps": "12",
+              "load": "Hold week 3's weight — make every rep clean",
               "restSeconds": 90,
-              "cue": "Last session of the block — make these the best ones yet",
-              "alternative": "Armrests when needed",
-              "stopIf": "Sharp knee pain — stop"
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
             },
             {
-              "name": "Hip Bridge Lying Down",
+              "name": "Leg Extension (Seated Machine)",
               "sets": 3,
-              "reps": "10",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Squeeze at the top, lower with control",
-              "alternative": "Smaller lift",
-              "stopIf": "Back or knee pain — stop"
-            },
-            {
-              "name": "Heel Taps on a Low Step",
-              "sets": 3,
-              "reps": "6 each leg",
-              "load": "Bodyweight",
-              "restSeconds": 75,
-              "cue": "Still just taps. If these have been pain-free all month, tell Shea — real step-ups might come next block",
-              "alternative": "Flat-floor taps",
-              "stopIf": "Any knee pain — flat-floor version"
-            },
-            {
-              "name": "Suitcase Carry",
-              "sets": 3,
-              "reps": "25 metres each hand",
-              "load": "Week 3 weight",
-              "restSeconds": 75,
-              "cue": "Tall, steady, strong grip",
-              "alternative": "Shorter walks",
-              "stopIf": "Unsteady — put it down"
-            },
-            {
-              "name": "Standing Knee Lift & Reach",
-              "sets": 2,
-              "reps": "8 each side",
-              "load": "Bodyweight",
+              "reps": "12",
+              "load": "Hold 3 seconds at the top",
               "restSeconds": 60,
-              "cue": "Smooth and confident",
-              "alternative": "Knee lift only",
-              "stopIf": "Unsteady or dizzy — sit and rest"
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
             },
             {
-              "name": "Heel-to-Toe Walk Along the Bench",
+              "name": "Seated Leg Curl (Machine)",
               "sets": 3,
-              "reps": "14 steps",
-              "load": "Bodyweight",
-              "restSeconds": 45,
-              "cue": "Longest walk of the block. Look how far balance has come in a month",
-              "alternative": "Normal small steps",
-              "stopIf": "Wobbling — hold on"
+              "reps": "14",
+              "load": "Controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
             },
             {
-              "name": "Easy Walk or Bike",
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "20",
+              "load": "Slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
               "sets": 1,
-              "reps": "12 minutes",
-              "load": "Chatting pace",
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
               "restSeconds": 0,
-              "cue": "Block done. Well earned",
-              "alternative": "As long as feels good",
-              "stopIf": "Knee discomfort walking — use the bike"
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
             }
           ],
           "cooldown": [
-            "Calf and thigh stretch holding the bench, 30 seconds each",
-            "Three slow deep breaths — that's the block finished!"
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
+          ]
+        },
+        {
+          "name": "Full Body — Machines · Session 3",
+          "estimatedMinutes": 55,
+          "warmup": [
+            "Recumbent bike, 8–10 minutes at Level 2–3 resistance",
+            "Comfortable, conversational pace — just enough to warm the knees and get the blood moving"
+          ],
+          "exercises": [
+            {
+              "name": "Leg Press (Machine)",
+              "sets": 4,
+              "reps": "12",
+              "load": "Hold week 3's weight — make every rep clean",
+              "restSeconds": 90,
+              "cue": "Feet shoulder-width, toes slightly out. Lower only until the knees reach 90° — no deeper. Push through the whole foot. Don't lock the knees hard at the top.",
+              "alternative": "Keep the same weight and slow it right down — 3 seconds down, 3 seconds up.",
+              "stopIf": "Sharp, sudden, or worsening knee pain — stop the set. Never let the knees bend past 90°."
+            },
+            {
+              "name": "Leg Extension (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold 3 seconds at the top",
+              "restSeconds": 60,
+              "cue": "Straighten fully at the top, hold, then lower slowly over 3 counts. Keep your hips back in the seat. This is precision work — the weight stays light.",
+              "alternative": "Do only the top half of the movement if the full range is uncomfortable.",
+              "stopIf": "Any sharp pain around the kneecap — drop the weight or stop."
+            },
+            {
+              "name": "Seated Leg Curl (Machine)",
+              "sets": 3,
+              "reps": "14",
+              "load": "Controlled both ways",
+              "restSeconds": 60,
+              "cue": "Full range both ways. Control the weight back in — don't let it snap. Keep your hips pressed into the seat.",
+              "alternative": "Lighten the weight and focus on a slow, controlled return.",
+              "stopIf": "Cramp or sharp pain behind the knee — ease off and stretch gently."
+            },
+            {
+              "name": "Seated Calf Raise (Machine)",
+              "sets": 3,
+              "reps": "20",
+              "load": "Slow and full range",
+              "restSeconds": 45,
+              "cue": "Pause and squeeze at the top, pause and stretch at the bottom. No bouncing.",
+              "alternative": "Fewer reps with a longer squeeze at the top.",
+              "stopIf": "Sharp calf pain — stop and stretch gently."
+            },
+            {
+              "name": "Chest Press (Seated Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Sit tall. Push smoothly — no thrusting or jerking. Full reach without locking the elbows. Slow on the way back, 2 counts.",
+              "alternative": "One arm at a time if the machine allows, or reduce the weight.",
+              "stopIf": "Shoulder pinching — lower the weight or shorten the range."
+            },
+            {
+              "name": "Lat Pulldown (Machine)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Wide grip. Pull the bar to your upper chest and lean back only slightly. Squeeze the lats at the bottom, control the way up.",
+              "alternative": "Use a lighter weight and a narrower, more comfortable grip.",
+              "stopIf": "Shoulder or elbow pain — go lighter."
+            },
+            {
+              "name": "Seated Row (Machine / Cable)",
+              "sets": 3,
+              "reps": "12",
+              "load": "Hold week 3's weight — quality reps",
+              "restSeconds": 60,
+              "cue": "Sit tall, chest up. Pull your elbows back and squeeze your shoulder blades together. Don't round your back or swing.",
+              "alternative": "Lighten the weight and pause for a second at the squeeze.",
+              "stopIf": "Lower-back pain — reduce the weight and keep your chest tall."
+            },
+            {
+              "name": "Backwards Treadmill Walk",
+              "sets": 1,
+              "reps": "10 minutes",
+              "load": "Speed 2.0 · Incline 8",
+              "restSeconds": 0,
+              "cue": "Hold the rails, take small steps, and look ahead — not down. Walking backwards uphill is brilliant for the muscles that protect the knee.",
+              "alternative": "New to it? Start at 5 minutes and add a minute each session until you reach the full 10.",
+              "stopIf": "Any loss of balance or knee pain — slow the belt down or step off onto the side rails."
+            }
+          ],
+          "cooldown": [
+            "Recumbent bike, 3–4 minutes very easy at Level 1",
+            "Seated quad stretch — 30 seconds each leg, gentle pull only, no pain",
+            "Seated calf stretch with a towel — 30 seconds each leg",
+            "Seated hamstring stretch — 30 seconds each leg, stop at the first gentle pull"
           ]
         }
       ]

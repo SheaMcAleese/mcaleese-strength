@@ -1,7 +1,7 @@
 /* McAleese Strength — service worker.
    Bump CACHE_VERSION whenever you edit the app or any program file,
    then push — clients pick up the new version on their next visit. */
-const CACHE_VERSION = 'ms-v1';
+const CACHE_VERSION = 'ms-v2';
 
 const SHELL = [
   './',

@@ -6,53 +6,81 @@
   --max-w: 560px;
 }
 
-/* ---------- Themes ---------- */
+/* ---------- Themes ----------
+   --accent   : structural/interactive colour (labels, links, progress)
+   --cta/--cta2: warm call-to-action gradient for primary buttons
+   --accent-2 : playful pop colour for small highlights
+   --tint     : soft wash behind the "today" card
+   --bg/--bg2 : page background gradient                                   */
 body.theme-dark {
   --bg: #0f1115;
+  --bg2: #161d2b;
   --card: #1a1f29;
-  --card-border: #262d3a;
+  --card-border: #2a3346;
   --text: #f2f4f8;
   --text-dim: #9aa3b2;
-  --accent: #ff6b35;
+  --accent: #ff8a4c;
+  --accent-2: #ffd166;
+  --cta: #ff6b35;
+  --cta2: #ff9d4d;
   --accent-text: #ffffff;
+  --tint: rgba(255, 138, 76, 0.12);
   --good: #3ecf8e;
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
   --danger-bg: #3a1d1d;
   --danger-border: #b34a4a;
   --danger-text: #ff9d9d;
 }
 
 body.theme-light {
-  --bg: #f4f5f7;
+  --bg: #eef5f4;
+  --bg2: #f7efe6;
   --card: #ffffff;
-  --card-border: #e2e5ea;
-  --text: #16181d;
-  --text-dim: #5c6470;
-  --accent: #d9530b;
+  --card-border: #d7e3e0;
+  --text: #14201e;
+  --text-dim: #5a6b68;
+  --accent: #0c7a6d;
+  --accent-2: #ef5d3a;
+  --cta: #f97316;
+  --cta2: #ea580c;
   --accent-text: #ffffff;
-  --good: #1e9e66;
+  --tint: #e4f4f0;
+  --good: #0a8a4f;
+  --shadow: 0 6px 18px rgba(20, 40, 38, 0.10);
   --danger-bg: #fdecec;
   --danger-border: #c62828;
   --danger-text: #a01f1f;
 }
 
+/* Dad's theme: warm, friendly and inviting — but kept high-contrast and legible. */
 body.theme-light-high-contrast {
-  --bg: #ffffff;
+  --bg: #fff6e9;
+  --bg2: #ffe9d3;
   --card: #ffffff;
-  --card-border: #16181d;
-  --text: #000000;
-  --text-dim: #333333;
-  --accent: #00429d;
+  --card-border: #e2a94f;
+  --text: #1a1208;
+  --text-dim: #6a5334;
+  --accent: #0b7d6f;
+  --accent-2: #ef5d3a;
+  --cta: #f97316;
+  --cta2: #e2521c;
   --accent-text: #ffffff;
-  --good: #006b3f;
-  --danger-bg: #fff2f2;
-  --danger-border: #b00020;
-  --danger-text: #8f0019;
+  --tint: #e2f5f0;
+  --good: #0a8a4f;
+  --shadow: 0 6px 16px rgba(120, 74, 20, 0.14);
+  --danger-bg: #fff0ed;
+  --danger-border: #c62828;
+  --danger-text: #98311b;
 }
 body.theme-light-high-contrast .card { border-width: 2px; }
+body.theme-light-high-contrast .picker-title,
+body.theme-light-high-contrast h1 { color: var(--accent); }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: var(--bg);
+  background-image: linear-gradient(165deg, var(--bg) 0%, var(--bg2) 100%);
+  background-attachment: fixed;
   color: var(--text);
   font-size: 17px;
   line-height: 1.45;
@@ -85,6 +113,7 @@ h2 { font-size: 1.2em; margin: 18px 0 10px; }
   border-radius: var(--radius);
   padding: 16px;
   margin-bottom: 12px;
+  box-shadow: var(--shadow);
 }
 
 .btn {
@@ -101,7 +130,12 @@ h2 { font-size: 1.2em; margin: 18px 0 10px; }
   margin-bottom: 10px;
   min-height: 52px;
 }
-.btn-primary { background: var(--accent); color: var(--accent-text); }
+.btn-primary {
+  background: var(--cta);
+  background-image: linear-gradient(135deg, var(--cta), var(--cta2));
+  color: var(--accent-text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+}
 .btn-secondary {
   background: var(--card);
   color: var(--text);
@@ -153,14 +187,21 @@ h2 { font-size: 1.2em; margin: 18px 0 10px; }
 .profile-btn .emoji { font-size: 1.6em; }
 
 /* ---------- Home ---------- */
-.today-card { border: 2px solid var(--accent); }
+.today-card {
+  border: 2px solid var(--accent);
+  background: var(--tint);
+}
 .today-label {
+  display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.75em;
   font-weight: 800;
-  color: var(--accent);
-  margin-bottom: 6px;
+  color: var(--accent-text);
+  background: var(--accent);
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
 }
 .today-name { font-size: 1.35em; font-weight: 800; margin-bottom: 4px; }
 .today-meta { color: var(--text-dim); margin-bottom: 14px; }
