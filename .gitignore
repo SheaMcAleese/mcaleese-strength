@@ -1,0 +1,6 @@
+
+# Dropbox sync artefacts - never track these, and never let one into .git
+*conflicted copy*
+*Conflicted Copy*
+.dropbox
+.dropbox.attr
