@@ -1,7 +1,11 @@
 /* McAleese Strength — service worker.
    Bump CACHE_VERSION whenever you edit the app or any program file,
    then push — clients pick up the new version on their next visit. */
-const CACHE_VERSION = 'ms-v2';
+const CACHE_VERSION = 'ms-v3';
+// Only clear this app's own old caches: every sheamcaleese.github.io app shares
+// ONE cache store, so an unscoped purge deletes the other apps' offline copies.
+// This was wiping the Athlete Hub's shell and its cached headshots. 4 Oct 2026.
+const CACHE_PREFIX = CACHE_VERSION.replace(/v\d+$/, '');
 
 const SHELL = [
   './',
@@ -34,7 +38,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k !== CACHE_VERSION).map(k => caches.delete(k)));
+    await Promise.all(keys.filter(k => k.startsWith(CACHE_PREFIX) && k !== CACHE_VERSION).map(k => caches.delete(k)));
     self.clients.claim();
   })());
 });
